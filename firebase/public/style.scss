@@ -1,0 +1,104 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Code", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px 50px;
+}
+
+.menu {
+  &_item {
+    list-style: none;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 550px) {
+  .container {
+    padding-bottom: 150px;
+  }
+}
+
+.zadanie {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  width: 90%;
+
+  &_hero {
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  &_tresc {
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  &_film {
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+
+  @media (min-width: 550px) {
+    &_film {
+      margin-top: 50px;
+    }
+  }
+
+  &_odpowiedz {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
+
+.embeded {
+  max-width: 90vw;
+}
+
+.zadanie1_odp {
+  display: flex;
+  align-items: center;
+}
+
+.zadanie1_odp input {
+  margin-left: 10px;
+  background-color: green;
+}
+
+.mark-check-green {
+  color: green;
+  margin-left: 10px;
+}
+
+.mark-check-red {
+  color: red;
+  margin-left: 10px;
+}
+
+.inactive {
+  display: none;
+}
