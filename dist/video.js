@@ -1,6 +1,6 @@
-let videoId = "DI1WnyP_R6Q";
-let startSeconds = 36;
-let endSeconds = 45;
+let videoId = "p5m4TCN5upQ";
+let startSeconds = 1;
+let endSeconds = 21;
 
 let player;
 

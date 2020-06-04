@@ -25,20 +25,20 @@ let spisZadanDOM =
   '<div class="list-zadania">' +
   "        <ul>" +
   '          <li><button class="list-item-zadanie">Zadanie 1</button></li>' +
-  '         <li><button class="list-item-zadanie">Zadanie 2</button></li>' +
-  "          <li>Zadanie 3</li>" +
-  "          <li>Zadanie 4</li>" +
-  "          <li>Zadanie 5</li>" +
-  "          <li>Zadanie 6</li>" +
-  "          <li>Zadanie 7</li>" +
-  "          <li>Zadanie 8</li>" +
-  "          <li>Zadanie 9</li>" +
-  "          <li>Zadanie 10</li>" +
-  "          <li>Zadanie 11</li>" +
-  "          <li>Zadanie 12</li>" +
-  "          <li>Zadanie 13</li>" +
-  "          <li>Zadanie 14</li>" +
-  "          <li>Zadanie 15</li>" +
+  "        <li><button class='list-item-zadanie'>Zadanie 2</button></li>" +
+  "          <li><button class='list-item-zadanie'>Zadanie 3</button></li>" +
+  "          <li><button class='list-item-zadanie'>Zadanie 4</button></li>" +
+  "          <li><button class='list-item-zadanie'>Zadanie 5</button></li>" +
+  "          <li><button class='list-item-zadanie'>Zadanie 6</button></li>" +
+  "          <li><button class='list-item-zadanie'>Zadanie 7</button></li>" +
+  "          <li><button class='list-item-zadanie'>Zadanie 8</button></li>" +
+  "          <li><button class='list-item-zadanie'>Zadanie 9</button></li>" +
+  "          <li><button class='list-item-zadanie'>Zadanie 10</button></li>" +
+  "          <li><button class='list-item-zadanie'>Zadanie 11</button></li>" +
+  "          <li><button class='list-item-zadanie'>Zadanie 12</button></li>" +
+  "          <li><button class='list-item-zadanie'>Zadanie 13</button></li>" +
+  "          <li><button class='list-item-zadanie'>Zadanie 14</button></li>" +
+  "          <li><button class='list-item-zadanie'>Zadanie 15</button></li>" +
   "        </ul>" +
   "      </div>";
 

@@ -28,8 +28,9 @@ let zad1DOM =
   '            <i class="fas fa-times mark-check-red inactive"></i>' +
   "          </div>" +
   '          <div class="zadanie_odpowiedz">' +
-  '            <button id="Zad11">Sprawdź</button>' +
+  '            <button id="Zad11" class="zadanie-button">Sprawdź</button>' +
   "          </div>" +
+  "          <br>       " +
   "          <p>" +
   "            2. Zaproponuj co może być przyczyną takiego zachowania kulek." +
   "            Uzasadnij odpowiedź." +
@@ -39,9 +40,9 @@ let zad1DOM =
   "            różne ciecze?" +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
-  '            <button id="Zad12">Odpowiedź</button>' +
+  '            <button id="Zad12" class="zadanie-button">Odpowiedź</button>' +
   '            <p id="Odp12" class="inactive">' +
-  "              Odpowiedź - To wszystko wina sędziego" +
+  "              Odpowiedź - " +
   "            </p>" +
   "          </div>" +
   "        </div>" +

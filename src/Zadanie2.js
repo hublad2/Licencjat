@@ -45,20 +45,18 @@ let zad2DOM =
   '            <i class="fas fa-times mark-check-red inactive"></i>' +
   "          </div>" +
   '          <div class="zadanie_odpowiedz">' +
-  '            <button id="Zad21">Sprawdź</button>' +
+  '            <button id="Zad21" class="zadanie-button">Sprawdź</button>' +
   "          </div>" +
-  "          <p>" +
-  "            <span><span> </span></span>" +
-  "          </p>" +
+  " <br>" +
   "          <p>" +
   "            2. Podskakujemy w pociągu, ale lądujemy w tym samym miejscu w" +
   "            przedziale, z którego wyskoczyliśmy. Dlaczego tak się stało," +
   "            skoro pociąg jedzie?" +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
-  '            <button id="Zad22">Odpowiedź</button>' +
+  '            <button id="Zad22" class="zadanie-button">Odpowiedź</button>' +
   '            <p id="Odp22" class="inactive">' +
-  "              Odpowiedź - To wszystko wina sędziego" +
+  "              Odpowiedź - " +
   "            </p>" +
   "          </div>" +
   "        </div>";
