@@ -15,9 +15,9 @@ function appendScripts() {
   my_awesome_script3.setAttribute("src", "https://www.youtube.com/player_api");
   my_awesome_script3.id = "script3";
 
-  document.body.appendChild(my_awesome_script2);
-  document.body.appendChild(my_awesome_script3);
-  document.body.appendChild(my_awesome_script);
+  //document.body.appendChild(my_awesome_script2);
+  //document.body.appendChild(my_awesome_script3);
+  //document.body.appendChild(my_awesome_script);
 }
 
 function removeScripts() {
@@ -25,9 +25,9 @@ function removeScripts() {
   let my_awesome_script3 = document.querySelector("#script3");
   let my_awesome_script2 = document.querySelector("#www-widgetapi-script");
 
-  my_awesome_script.remove();
-  my_awesome_script3.remove();
-  my_awesome_script2.remove();
+  //my_awesome_script.remove();
+  //my_awesome_script3.remove();
+  //my_awesome_script2.remove();
 }
 
 export { appendScripts, removeScripts };

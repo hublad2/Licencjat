@@ -46,12 +46,21 @@ function initListenersType1(
   });
 
   const zad12 = document.querySelector(Zad12Id);
+  const odp12 = document.querySelector(Odp12Id);
+  ChangeClass(zad12, odp12);
+}
 
-  zad12.addEventListener("click", () => {
-    const odp12 = document.querySelector(Odp12Id);
-    if (odp12.classList.contains("inactive"))
-      odp12.classList.remove("inactive");
+function initOnlyOpenAnswers(odpButtonArray, odpArray) {
+  odpButtonArray.forEach((odp, i) => {
+    ChangeClass(odp, odpArray[i]);
   });
 }
 
-export { initListenersType1 };
+function ChangeClass(buttonElement, showElement) {
+  buttonElement.addEventListener("click", () => {
+    if (showElement.classList.contains("inactive"))
+      showElement.classList.remove("inactive");
+  });
+}
+
+export { initListenersType1, ChangeClass, initOnlyOpenAnswers };

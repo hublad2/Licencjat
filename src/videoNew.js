@@ -38,3 +38,5 @@ function onStateChange(state) {
     });
   }
 }
+
+export { onYouTubePlayerAPIReady };

@@ -55,7 +55,7 @@ body {
           align-items: center;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 800px) {
   .container {
     padding-bottom: 150px;
   }
@@ -73,34 +73,36 @@ body {
   width: 90%;
 }
 
-.zadanie_hero {
-  -ms-grid-row: 1;
-      grid-row-start: 1;
-  grid-row-end: 1;
-}
-
-.zadanie_tresc {
-  -ms-grid-row: 2;
-      grid-row-start: 2;
-  grid-row-end: 2;
-}
-
-.zadanie_film {
-  -ms-grid-row: 3;
-      grid-row-start: 3;
-  grid-row-end: 3;
-}
-
-@media (min-width: 550px) {
-  .zadanie_film {
-    margin-top: 50px;
+@media (max-width: 800px) {
+  .zadanie {
+    margin-bottom: 100px;
   }
 }
 
-.zadanie_odpowiedz {
-  -ms-grid-row: 2;
-      grid-row-start: 2;
-  grid-row-end: 3;
+.zadanie1 {
+  -ms-grid-rows: 50px 2fr 2fr;
+      grid-template-rows: 50px 2fr 2fr;
+}
+
+@media (max-width: 600px) {
+  .zadanie1 {
+    -ms-grid-rows: auto auto auto;
+        grid-template-rows: auto auto auto;
+  }
+  .zadanie1_film {
+    margin: 30px 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .zadanie1 {
+    margin-bottom: 100px;
+  }
+}
+
+.zadanie2 {
+  -ms-grid-rows: 200px auto;
+      grid-template-rows: 200px auto;
 }
 
 .embeded {
@@ -132,7 +134,7 @@ body {
 }
 
 .inactive {
-  display: none;
+  visibility: hidden;
 }
 
 .list-zadania {

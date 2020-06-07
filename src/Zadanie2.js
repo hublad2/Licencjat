@@ -1,9 +1,9 @@
 let zad2DOM =
-  '<div class="zadanie" style="grid-template-rows: 200px auto;">' +
-  '        <div class="zadanie_hero">' +
+  '<div class="zadanie zadanie2">' +
+  '        <div class="zadanie_hero zadanie2_hero">' +
   "          <h2>Zadanie 2: Pociąg</h2>" +
   "        </div>" +
-  '        <div class="zadanie_tresc">' +
+  '        <div class="zadanie_tresc zadanie2_tresc">' +
   "          <p>" +
   "            <span" +
   "              >Jedziemy pociągiem, który porusza się ruchem jednostajnym," +

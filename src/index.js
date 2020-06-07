@@ -1,7 +1,9 @@
 import { getHTMLZad1 } from "./Zadanie1";
 import { getHTMLZad2 } from "./Zadanie2";
+import { getHTMLZad3 } from "./Zadanie3";
 import { appendScripts, removeScripts } from "./scriptAppend";
-import { initListenersType1 } from "./InitType1";
+import { initListenersType1, initOnlyOpenAnswers } from "./InitType1";
+import { onYouTubePlayerAPIReady } from "./videoNew";
 import * as firebase from "firebase/app";
 import "firebase/analytics";
 
@@ -20,6 +22,8 @@ firebase.initializeApp(firebaseConfig);
 
 const container = document.querySelector(".container");
 const spisZadan = document.querySelector("#spis-zadan");
+
+let spisZadanActive = true;
 
 let spisZadanDOM =
   '<div class="list-zadania">' +
@@ -46,19 +50,24 @@ container.insertAdjacentHTML("beforeend", spisZadanDOM);
 initList();
 
 spisZadan.addEventListener("click", () => {
-  while (container.hasChildNodes()) container.firstChild.remove();
-  removeScripts();
-  container.insertAdjacentHTML("beforeend", spisZadanDOM);
-  initList();
+  if (!spisZadanActive) {
+    spisZadanActive = true;
+    while (container.hasChildNodes()) container.firstChild.remove();
+    removeScripts();
+    container.insertAdjacentHTML("beforeend", spisZadanDOM);
+    initList();
+  }
 });
 
 function initList() {
   const zadaniaList = document.querySelectorAll(".list-item-zadanie");
 
   zadaniaList[0].addEventListener("click", () => {
+    spisZadanActive = false;
     while (container.hasChildNodes()) container.firstChild.remove();
     let zadanie = getHTMLZad1();
     container.insertAdjacentHTML("beforeend", zadanie);
+    onYouTubePlayerAPIReady();
     initListenersType1(
       "#Zad11",
       "#Zad111",
@@ -71,6 +80,7 @@ function initList() {
   });
 
   zadaniaList[1].addEventListener("click", () => {
+    spisZadanActive = false;
     while (container.hasChildNodes()) container.firstChild.remove();
     let zadanie = getHTMLZad2();
     container.insertAdjacentHTML("beforeend", zadanie);
@@ -82,6 +92,19 @@ function initList() {
       "#Zad22",
       "#Odp22"
     );
+    appendScripts();
+  });
+
+  zadaniaList[2].addEventListener("click", () => {
+    spisZadanActive = false;
+    while (container.hasChildNodes()) container.firstChild.remove();
+    let zadanie = getHTMLZad3();
+    container.insertAdjacentHTML("beforeend", zadanie);
+    const Zad31 = document.querySelector("#Zad31");
+    const Zad32 = document.querySelector("#Zad32");
+    const Odp31 = document.querySelector("#Odp31");
+    const Odp32 = document.querySelector("#Odp32");
+    initOnlyOpenAnswers([Zad31, Zad32], [Odp31, Odp32]);
     appendScripts();
   });
 }

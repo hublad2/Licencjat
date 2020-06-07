@@ -1,9 +1,12 @@
 let zad1DOM =
-  '<div class="zadanie" style="grid-template-rows: 200px 2fr 2fr";>' +
-  '        <div class="zadanie_hero">' +
+  '<div class="zadanie zadanie1";>' +
+  '        <div class="zadanie_hero zadanie1_hero">' +
   "         <h2>Zadanie 1: Kulki w butli</h2>" +
   "        </div>" +
-  '        <div class="zadanie_tresc">' +
+  '        <div class="zadanie_film zadanie1_film">' +
+  '          <div id="video1" class="embeded"></div>' +
+  "        </div>" +
+  '        <div class="zadanie_tresc zadanie1_tresc">' +
   "          <p>Spójrz na załączony film</p>" +
   "          <p>" +
   "            1. Przy zjawiskach które mogą, wyjaśniać zachowania kulek" +
@@ -45,9 +48,6 @@ let zad1DOM =
   "              Odpowiedź - " +
   "            </p>" +
   "          </div>" +
-  "        </div>" +
-  '        <div class="zadanie_film">' +
-  '          <div id="video1" class="embeded"></div>' +
   "        </div>" +
   " </div>";
 
