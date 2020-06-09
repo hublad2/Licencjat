@@ -50,6 +50,103 @@ function initListenersType1(
   ChangeClass(zad12, odp12);
 }
 
+function InitChooseTwo(
+  checkBox1,
+  checkBox2,
+  answerButton,
+  markGreenId,
+  markRedId,
+  display
+) {
+  const checkBox1Element = document.querySelector(checkBox1);
+  const checkBox2Element = document.querySelector(checkBox2);
+  const answerButtonElement = document.querySelector(answerButton);
+
+  checkBox1Element.addEventListener("click", () => {
+    if (checkBox2Element.checked) checkBox2Element.checked = false;
+  });
+
+  checkBox2Element.addEventListener("click", () => {
+    if (checkBox1Element.checked) checkBox1Element.checked = false;
+  });
+
+  const greenMark = document.querySelector(markGreenId);
+  const redMark = document.querySelector(markRedId);
+
+  if (display) {
+    answerButtonElement.addEventListener("click", () => {
+      if (!greenMark.classList.contains("inactive"))
+        greenMark.classList.add("inactive");
+
+      if (!redMark.classList.contains("inactive"))
+        redMark.classList.add("inactive");
+
+      if (checkBox1Element.checked) {
+        greenMark.classList.remove("inactive");
+      }
+      if (checkBox2Element.checked) {
+        redMark.classList.remove("inactive");
+      }
+    });
+  } else {
+    answerButtonElement.addEventListener("click", () => {
+      if (!greenMark.classList.contains("inactive-chekbox"))
+        greenMark.classList.add("inactive-chekbox");
+
+      if (!redMark.classList.contains("inactive-chekbox"))
+        redMark.classList.add("inactive-chekbox");
+
+      if (checkBox1Element.checked) {
+        greenMark.classList.remove("inactive-chekbox");
+      }
+      if (checkBox2Element.checked) {
+        redMark.classList.remove("inactive-chekbox");
+      }
+    });
+  }
+}
+
+function InitCheckValue(
+  answerButtonId,
+  inputId,
+  valueMin,
+  valueMax,
+  markGreenId,
+  markRedId,
+  display
+) {
+  const answerButton = document.querySelector(answerButtonId);
+  const input = document.querySelector(inputId);
+  const markGreen = document.querySelector(markGreenId);
+  const markRed = document.querySelector(markRedId);
+
+  if (display) {
+    answerButton.addEventListener("click", () => {
+      if (!markGreen.classList.contains("inactive"))
+        markGreen.classList.add("inactive");
+      if (!markRed.classList.contains("inactive"))
+        markRed.classList.add("inactive");
+      if (input.value < valueMax && input.value > valueMin) {
+        markGreen.classList.remove("inactive");
+      } else {
+        markRed.classList.remove("inactive");
+      }
+    });
+  } else {
+    answerButton.addEventListener("click", () => {
+      if (!markGreen.classList.contains("inactive-chekbox"))
+        markGreen.classList.add("inactive-chekbox");
+      if (!markRed.classList.contains("inactive-chekbox"))
+        markRed.classList.add("inactive-chekbox");
+      if (input.value < valueMax && input.value > valueMin) {
+        markGreen.classList.remove("inactive-chekbox");
+      } else {
+        markRed.classList.remove("inactive-chekbox");
+      }
+    });
+  }
+}
+
 function initOnlyOpenAnswers(odpButtonArray, odpArray) {
   odpButtonArray.forEach((odp, i) => {
     ChangeClass(odp, odpArray[i]);
@@ -63,4 +160,10 @@ function ChangeClass(buttonElement, showElement) {
   });
 }
 
-export { initListenersType1, ChangeClass, initOnlyOpenAnswers };
+export {
+  initListenersType1,
+  ChangeClass,
+  initOnlyOpenAnswers,
+  InitChooseTwo,
+  InitCheckValue,
+};

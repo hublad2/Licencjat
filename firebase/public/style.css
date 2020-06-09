@@ -73,9 +73,27 @@ body {
   width: 90%;
 }
 
+.zadanie_tabela table,
+.zadanie th,
+.zadanie td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.zadanie_tabela th,
+.zadanie td {
+  padding: 10px;
+}
+
 @media (max-width: 800px) {
   .zadanie {
     margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .zadanie_tresc {
+    margin: 0 10%;
   }
 }
 
@@ -103,6 +121,36 @@ body {
 .zadanie2 {
   -ms-grid-rows: 200px auto;
       grid-template-rows: 200px auto;
+}
+
+.zadanie3 {
+  -ms-grid-rows: 150px auto auto;
+      grid-template-rows: 150px auto auto;
+}
+
+.zadanie3_tabela {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+  .zadanie3_tabela {
+    font-size: 12px;
+  }
+}
+
+.zadanie4 {
+  -ms-grid-rows: 200px auto auto;
+      grid-template-rows: 200px auto auto;
+}
+
+.zadanie4_tabela {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+  .zadanie4_tabela {
+    font-size: 12px;
+  }
 }
 
 .embeded {
@@ -135,6 +183,10 @@ body {
 
 .inactive {
   visibility: hidden;
+}
+
+.inactive-chekbox {
+  display: none;
 }
 
 .list-zadania {
@@ -218,5 +270,36 @@ body {
 
 .zadanie-button:active {
   top: 0.1em;
+}
+
+.chart-container {
+  max-width: 80vw;
+}
+
+@media (max-width: 800px) {
+  .chart-container {
+    width: 95vw;
+  }
+}
+
+.two-choices-label {
+  margin-left: 10px;
+}
+
+#Zad42 {
+  margin-top: 10px;
+}
+
+.img-container {
+  display: block;
+  max-width: 90%;
+  margin: 30px auto;
+}
+
+@media (max-width: 800px) {
+  .img-container {
+    display: inline;
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */

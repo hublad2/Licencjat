@@ -1,9 +1,16 @@
 import { getHTMLZad1 } from "./Zadanie1";
 import { getHTMLZad2 } from "./Zadanie2";
 import { getHTMLZad3 } from "./Zadanie3";
+import { getHTMLZad4 } from "./Zadanie4";
 import { appendScripts, removeScripts } from "./scriptAppend";
-import { initListenersType1, initOnlyOpenAnswers } from "./InitType1";
+import {
+  initListenersType1,
+  initOnlyOpenAnswers,
+  InitChooseTwo,
+  InitCheckValue,
+} from "./InitType1";
 import { onYouTubePlayerAPIReady } from "./videoNew";
+import { InitChart } from "./charts";
 import * as firebase from "firebase/app";
 import "firebase/analytics";
 
@@ -105,6 +112,40 @@ function initList() {
     const Odp31 = document.querySelector("#Odp31");
     const Odp32 = document.querySelector("#Odp32");
     initOnlyOpenAnswers([Zad31, Zad32], [Odp31, Odp32]);
+    appendScripts();
+  });
+
+  zadaniaList[3].addEventListener("click", () => {
+    spisZadanActive = false;
+    while (container.hasChildNodes()) container.firstChild.remove();
+    let zadanie = getHTMLZad4();
+    container.insertAdjacentHTML("beforeend", zadanie);
+    InitChart();
+    InitChooseTwo(
+      "#Zad411",
+      "#Zad412",
+      "#Zad41",
+      "#green-mark-Zad41",
+      "#red-mark-Zad41",
+      false
+    );
+    InitChooseTwo(
+      "#Zad421",
+      "#Zad422",
+      "#Zad42",
+      "#green-mark-Zad42",
+      "#red-mark-Zad42",
+      false
+    );
+    InitCheckValue(
+      "#Zad42",
+      "#Zad423",
+      100,
+      700,
+      "#green-mark-Zad43",
+      "#red-mark-Zad43",
+      false
+    );
     appendScripts();
   });
 }

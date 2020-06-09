@@ -113,6 +113,20 @@ body {
   }
 }
 
+.zadanie4 {
+  grid-template-rows: 200px auto auto;
+
+  &_tabela {
+    margin-bottom: 50px;
+  }
+
+  @media (max-width: 800px) {
+    &_tabela {
+      font-size: 12px;
+    }
+  }
+}
+
 .embeded {
   max-width: 90vw;
 }
@@ -139,6 +153,10 @@ body {
 
 .inactive {
   visibility: hidden;
+}
+
+.inactive-chekbox {
+  display: none;
 }
 
 .list-zadania {
@@ -211,4 +229,35 @@ body {
 
 .zadanie-button:active {
   top: 0.1em;
+}
+
+.chart-container {
+  max-width: 80vw;
+}
+
+@media (max-width: 800px) {
+  .chart-container {
+    width: 95vw;
+  }
+}
+
+.two-choices-label {
+  margin-left: 10px;
+}
+
+#Zad42 {
+  margin-top: 10px;
+}
+
+.img-container {
+  display: block;
+  max-width: 90%;
+  margin: 30px auto;
+}
+
+@media (max-width: 800px) {
+  .img-container {
+    display: inline;
+    margin: 0 auto;
+  }
 }

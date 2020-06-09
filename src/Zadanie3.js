@@ -66,8 +66,8 @@ let zad3DOM =
   "            promieniowania docierającego do Merkurego?" +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
-  '            <button id="Zad31" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp31" class="inactive">Odpowiedź -</p>' +
+  '            <button id="Zad32" class="zadanie-button">Odpowiedź</button>' +
+  '            <p id="Odp32" class="inactive">Odpowiedź -</p>' +
   "          </div>" +
   "        </div>" +
   "      </div>";
