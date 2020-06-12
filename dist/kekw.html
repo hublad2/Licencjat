@@ -15,6 +15,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/86e742da90.js"
       crossorigin="anonymous"
@@ -31,130 +35,74 @@
       </ul>
     </nav>
     <div class="container">
-      <div class="zadanie zadanie4" ;="">
-        <div class="zadanie_hero zadanie4_hero">
-          <h2>Zadanie 4: Kulki w butli</h2>
+      <div class="zadanie zadanie10" ;="">
+        <div class="zadanie_hero zadanie10_hero">
+          <h2>Zadanie 10: Magnesy</h2>
         </div>
-        <div class="zadanie_tabela zadanie4_tabela">
-          <table>
-            <tr>
-              <td><b>Planeta</b></td>
-              <td><b>Temperatura powierzchni [K]</b></td>
-              <td><b>Odległość od Słońca [AU]</b></td>
-            </tr>
-            <tr>
-              <td>Merkury</td>
-              <td>442</td>
-              <td>0,4</td>
-            </tr>
-            <tr>
-              <td>Wenus</td>
-              <td>737</td>
-              <td>0,7</td>
-            </tr>
-            <tr>
-              <td>Ziemia</td>
-              <td>288</td>
-              <td>1</td>
-            </tr>
-            <tr>
-              <td>Mars</td>
-              <td>210</td>
-              <td>1,5</td>
-            </tr>
-          </table>
-        </div>
-        <div class="zadanie_tresc zadanie4_tresc">
-          <p dir="ltr">
-            <span
-              >Sp&oacute;jrz na załączoną tabelkę i odpowiedz na pytania</span
-            >
+        <div class="zadanie_tresc zadanie10_tresc">
+          <p>
+            Przyjrzyj się co dzieje się na ekranie telewizora.
+          </p>
+          <div class="zadanie_film zadanie10_film">
+            <div id="video7" class="embeded"></div>
+          </div>
+          <p>
+            1. Korzystając z dostępnych źródeł dowiedz się podstawowych zasad
+            działania monitora kineskopowego, następnie spróbuj wytłumaczyć
+            dlaczego magnes działa w ten sposób na obraz.
           </p>
           <p>
-            1. Temperatura powierzchni, pomijając Wenus,
+            Możesz skorzystać np. z tego artykułu
+            <a href="https://pl.wikipedia.org/wiki/Monitor_kineskopowy"
+              >https://pl.wikipedia.org/wiki/Monitor_kineskopowy</a
+            >
+          </p>
+          <div class="zadanie_odpowiedz">
+            <button id="Zad101" class="zadanie-button">Odpowiedź</button>
+            <p id="Odp101" class="inactive-chekbox">lorem 100</p>
+          </div>
+          <p>
+            2. Czy użycie, tak samo silnego, elektromagnesu dałoby identyczny
+            efekt?
             <span
-              ><label for="Zad411">maleje</label>
-              <input type="checkbox" id="Zad411" /></span
+              ><label for="Zad1021">Tak</label>
+              <input type="checkbox" id="Zad1021" /></span
             >/
             <span
-              ><label for="Zad412">rośnie</label
-              ><input type="checkbox" id="Zad412" />
+              ><label for="Zad1022">Nie</label
+              ><input type="checkbox" id="Zad1022" />
               <i
                 class="fas fa-check mark-check-green inactive-chekbox"
                 aria-hidden="true"
-                id="green-mark-Zad41"
+                id="green-mark-Zad102"
               ></i>
               <i
                 class="fas fa-times mark-check-red inactive-chekbox"
                 aria-hidden="true"
-                id="red-mark-Zad41"
+                id="red-mark-Zad102"
               ></i
             ></span>
-            wraz ze wzrostem odległości od Słońca.
           </p>
           <div class="zadanie_odpowiedz">
-            <button id="Zad41" class="zadanie-button">Sprawdź</button>
+            <button id="Zad102" class="zadanie-button">Sprawdź</button>
           </div>
-          <p dir="ltr">
-            <span
-              >2. Wenus to planeta posiadająca gęstą atmosferę składającą się w
-              96% z dwutlenku węgla, kt&oacute;ry jest gazem
-              cieplarnianym.&nbsp;</span
-            >Korzystając z tej informacji, i prostego diagramu poniżej, wyjaśnij
-            w jaki spos&oacute;b atmosfera Wenus może powodować wzrost
-            temperatury na planecie.
+          <p>
+            3. Informacje na dysku twardym można uszkodzić przybliżając do niego
+            silny magnes. Poszukaj w internecie wyjaśnienia działania takiego
+            dysku i wytłumacz dlaczego dane da się uszkodzić w ten sposób.
           </p>
-          <div class="chart-container">
-            <canvas id="myChart"></canvas>
-          </div>
-          <p dir="ltr">
-            <span
-              >3. Lądujemy na Wenus. Korzystając z wykresu odpowiedz na
-              pytania.</span
+          <p>
+            Pomóc może ten artykuł:
+            <a
+              href="https://klinikadanych.pl/artykuly/budowa-i-dzialanie-dysku-twardego-jak-dziala-hdd"
+              >https://klinikadanych.pl/artykuly/budowa-i-dzialanie-dysku-twardego-jak-dziala-hdd</a
             >
+            szczególnie działy talerze, głowice oraz zapis i odczyt danych.
           </p>
-          <div class="zadanie1_odp">
-            <p>
-              a) Czy gdybyśmy, po wylądowaniu, stanęli na wadze sprężynowej jej
-              wskazania byłyby inne niż na Ziemi?
-            </p>
-            <label for="Zad421" class="two-choices-label">Tak</label>
-            <input type="checkbox" id="Zad421" />
-            /
-            <label for="Zad422">Nie</label>
-            <input type="checkbox" id="Zad422" />
-            <i
-              class="fas fa-check mark-check-green inactive-chekbox"
-              aria-hidden="true"
-              id="green-mark-Zad42"
-            ></i>
-            <i
-              class="fas fa-times mark-check-red inactive-chekbox"
-              aria-hidden="true"
-              id="red-mark-Zad42"
-            ></i>
-          </div>
-          <p dir="ltr">
-            b) W jakiej odległości od Ziemi musielibyśmy się znaleźć, aby
-            przyspieszenie ziemskie było r&oacute;wne temu z powierzchni Wenus?
-          </p>
-          <label for="Zad423">Wpisz odległość:</label>
-          <input type="number" id="Zad423" class="number-input" />
-          <i
-            class="fas fa-check mark-check-green inactive-chekbox"
-            aria-hidden="true"
-            id="green-mark-Zad43"
-          ></i>
-          <i
-            class="fas fa-times mark-check-red inactive-chekbox"
-            aria-hidden="true"
-            id="red-mark-Zad43"
-          ></i>
           <div class="zadanie_odpowiedz">
-            <button id="Zad42" class="zadanie-button">Sprawdź</button>
+            <button id="Zad103" class="zadanie-button">Odpowiedź</button>
+            <p id="Odp103" class="inactive-chekbox">lorem 100</p>
           </div>
-          <p><span>&nbsp;</span></p>
-          <p><span>&nbsp;</span></p>
         </div>
       </div>
     </div>

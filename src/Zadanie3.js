@@ -59,7 +59,7 @@ let zad3DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad31" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp31" class="inactive">Odpowiedź -</p>' +
+  '            <p id="Odp31" class="inactive-chekbox">Odpowiedź -</p>' +
   "          </div>" +
   "          <p>" +
   "            2. W jaki sposób można wytłumaczyć różnicę w natężeniu" +
@@ -67,7 +67,7 @@ let zad3DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad32" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp32" class="inactive">Odpowiedź -</p>' +
+  '            <p id="Odp32" class="inactive-chekbox">Odpowiedź -</p>' +
   "          </div>" +
   "        </div>" +
   "      </div>";

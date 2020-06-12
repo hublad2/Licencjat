@@ -47,7 +47,6 @@ let zad2DOM =
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad21" class="zadanie-button">Sprawdź</button>' +
   "          </div>" +
-  " <br>" +
   "          <p>" +
   "            2. Podskakujemy w pociągu, ale lądujemy w tym samym miejscu w" +
   "            przedziale, z którego wyskoczyliśmy. Dlaczego tak się stało," +
@@ -55,7 +54,7 @@ let zad2DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad22" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp22" class="inactive">' +
+  '            <p id="Odp22" class="inactive-chekbox">' +
   "              Odpowiedź - " +
   "            </p>" +
   "          </div>" +

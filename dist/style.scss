@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "Fira Code", sans-serif;
+  font-family: "Roboto mono", monospace, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -55,6 +55,10 @@ body {
   justify-items: center;
   align-items: center;
   width: 90%;
+
+  &_odpowiedz {
+    margin-bottom: 30px;
+  }
 
   &_tabela table,
   th,
@@ -125,6 +129,40 @@ body {
       font-size: 12px;
     }
   }
+}
+
+.zadanie5 {
+  grid-template-rows: 200px auto;
+
+  &_tabela {
+    margin-bottom: 0px;
+  }
+
+  @media (max-width: 800px) {
+    &_tabela {
+      font-size: 12px;
+    }
+  }
+}
+
+.zadanie6 {
+  grid-template-rows: 200px auto;
+}
+
+.zadanie7 {
+  grid-template-rows: 200px auto auto;
+}
+
+.zadanie8 {
+  grid-template-rows: 200px auto;
+}
+
+.zadanie9 {
+  grid-template-rows: 200px auto;
+}
+
+.zadanie10 {
+  grid-template-rows: 200px auto;
 }
 
 .embeded {
@@ -260,4 +298,8 @@ body {
     display: inline;
     margin: 0 auto;
   }
+}
+
+.zadanie52_odpowiedz {
+  margin-bottom: 50px;
 }

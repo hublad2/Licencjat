@@ -33,7 +33,6 @@ let zad1DOM =
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad11" class="zadanie-button">Sprawdź</button>' +
   "          </div>" +
-  "          <br>       " +
   "          <p>" +
   "            2. Zaproponuj co może być przyczyną takiego zachowania kulek." +
   "            Uzasadnij odpowiedź." +
@@ -44,7 +43,7 @@ let zad1DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad12" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp12" class="inactive">' +
+  '            <p id="Odp12" class="inactive-chekbox">' +
   "              Odpowiedź - " +
   "            </p>" +
   "          </div>" +
