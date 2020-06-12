@@ -197,6 +197,21 @@ body {
       grid-template-rows: 200px auto;
 }
 
+.zadanie11 {
+  -ms-grid-rows: 200px auto;
+      grid-template-rows: 200px auto;
+}
+
+.zadanie12 {
+  -ms-grid-rows: 200px auto;
+      grid-template-rows: 200px auto;
+}
+
+.zadanie13 {
+  -ms-grid-rows: 200px auto;
+      grid-template-rows: 200px auto;
+}
+
 .embeded {
   max-width: 90vw;
 }

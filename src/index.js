@@ -8,6 +8,9 @@ import { getHTMLZad7 } from "./Zadanie7";
 import { getHTMLZad8 } from "./Zadanie8";
 import { getHTMLZad9 } from "./Zadanie9";
 import { getHTMLZad10 } from "./Zadanie10";
+import { getHTMLZad11 } from "./Zadanie11";
+import { getHTMLZad12 } from "./Zadanie12";
+import { getHTMLZad13 } from "./Zadanie13";
 import { appendScripts, removeScripts } from "./scriptAppend";
 import {
   initListenersType1,
@@ -15,6 +18,7 @@ import {
   InitChooseTwo,
   InitCheckValue,
   InitChooseOneFromThree,
+  InitMultipleAnserwsFromThree,
 } from "./InitType1";
 import { onYouTubePlayerAPIReady } from "./videoNew";
 import { InitChart } from "./charts";
@@ -278,6 +282,62 @@ function initList() {
       false
     );
     onYouTubePlayerAPIReady("_yEu2R1gYSs", 1, 21, "video7");
+    appendScripts();
+  });
+
+  zadaniaList[10].addEventListener("click", () => {
+    spisZadanActive = false;
+    while (container.hasChildNodes()) container.firstChild.remove();
+    let zadanie = getHTMLZad11();
+    container.insertAdjacentHTML("beforeend", zadanie);
+    const Zad111 = document.querySelector("#Zad111");
+    const Odp111 = document.querySelector("#Odp111");
+    const Zad112 = document.querySelector("#Zad112");
+    const Odp112 = document.querySelector("#Odp112");
+    initOnlyOpenAnswers([Zad111, Zad112], [Odp111, Odp112]);
+    appendScripts();
+  });
+
+  zadaniaList[11].addEventListener("click", () => {
+    spisZadanActive = false;
+    while (container.hasChildNodes()) container.firstChild.remove();
+    let zadanie = getHTMLZad12();
+    container.insertAdjacentHTML("beforeend", zadanie);
+    const Zad122 = document.querySelector("#Zad122");
+    const Odp122 = document.querySelector("#Odp122");
+    initOnlyOpenAnswers([Zad122], [Odp122]);
+    InitChooseOneFromThree(
+      "#Zad1211",
+      "#Zad1213",
+      "#Zad1212",
+      "#Zad121",
+      "#green-mark-Zad1212",
+      "#red-mark-Zad1211",
+      "#red-mark-Zad1213",
+      true
+    );
+    appendScripts();
+  });
+
+  zadaniaList[12].addEventListener("click", () => {
+    spisZadanActive = false;
+    while (container.hasChildNodes()) container.firstChild.remove();
+    let zadanie = getHTMLZad13();
+    container.insertAdjacentHTML("beforeend", zadanie);
+    const Zad132 = document.querySelector("#Zad132");
+    const Odp132 = document.querySelector("#Odp132");
+    InitMultipleAnserwsFromThree("#Zad131", "#Zad1311", "#Zad1312", "#Zad1313");
+    initOnlyOpenAnswers([Zad132], [Odp132]);
+    InitChooseOneFromThree(
+      "#Zad1331",
+      "#Zad1332",
+      "#Zad1333",
+      "#Zad133",
+      "#green-mark-Zad1333",
+      "#red-mark-Zad1331",
+      "#red-mark-Zad1332",
+      true
+    );
     appendScripts();
   });
 }

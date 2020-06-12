@@ -50,6 +50,51 @@ function initListenersType1(
   ChangeClass(zad12, odp12);
 }
 
+function InitMultipleAnserwsFromThree(
+  checkButtonId,
+  checkBox1Id,
+  checkBox2Id,
+  checkBox3Id
+) {
+  const checkButton = document.querySelector(checkButtonId);
+  const checkbox1 = document.querySelector(checkBox1Id);
+  const checkbox2 = document.querySelector(checkBox2Id);
+  const checkbox3 = document.querySelector(checkBox3Id);
+
+  const greenMarks = document.querySelectorAll(".mark-check-green");
+  const redMarks = document.querySelectorAll(".mark-check-red");
+
+  checkButton.addEventListener("click", () => {
+    greenMarks.forEach((greenMark) => {
+      if (!greenMark.classList.contains("inactive"))
+        greenMark.classList.add("inactive");
+    });
+
+    redMarks.forEach((redMark) => {
+      if (!redMark.classList.contains("inactive"))
+        redMark.classList.add("inactive");
+    });
+
+    if (checkbox1.checked) {
+      greenMarks[0].classList.remove("inactive");
+    } else {
+      redMarks[0].classList.remove("inactive");
+    }
+
+    if (checkbox2.checked) {
+      greenMarks[1].classList.remove("inactive");
+    } else {
+      redMarks[1].classList.remove("inactive");
+    }
+
+    if (checkbox3.checked) {
+      redMarks[2].classList.remove("inactive");
+    } else {
+      greenMarks[2].classList.remove("inactive");
+    }
+  });
+}
+
 function InitChooseTwo(
   checkBox1,
   checkBox2,
@@ -246,4 +291,5 @@ export {
   InitChooseTwo,
   InitCheckValue,
   InitChooseOneFromThree,
+  InitMultipleAnserwsFromThree,
 };
