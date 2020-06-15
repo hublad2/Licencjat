@@ -89,6 +89,16 @@ body {
   padding: 10px;
 }
 
+.zadanie_film {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px 0;
+}
+
 @media (max-width: 800px) {
   .zadanie {
     margin-bottom: 100px;
@@ -364,5 +374,22 @@ body {
 
 .zadanie52_odpowiedz {
   margin-bottom: 50px;
+}
+
+.nav-buttons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 100px;
+}
+
+.only-next-button {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 /*# sourceMappingURL=style.css.map */

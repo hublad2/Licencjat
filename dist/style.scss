@@ -224,17 +224,12 @@ body {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   text-align: center;
 }
 
-@media (max-width: 750px) {
-  .list-zadania ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.list-zadania ul button {
+  width: 90%;
 }
 
 /*
