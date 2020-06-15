@@ -47,13 +47,25 @@ var zad8DOM =
   "            ></span>" +
   "            do/z kadłuba, aby łódź podwodna zmniejszyła zanurzenie." +
   "          </p>" +
-  "          <p>" +
-  "            b) Czy łódź podwodna może zanurzyć się dowolnie głęboko? Co sprawia," +
-  "            że podróże głęboko pod powierzchnię wody mogą być niebezpieczne?" +
-  "            (pomijając możliwość napotkania towarzystwa)" +
-  "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad82" class="zadanie-button">Sprawdź</button>' +
+  "          </div>" +
+  "<p>" +
+  "3. Czy łódź podwodna może zanurzyć się dowolnie głęboko? Co sprawia, że" +
+  " podróże głęboko pod powierzchnię wody mogą być niebezpieczne? (pomijając " +
+  "możliwość napotkania towarzystwa)" +
+  "</p>" +
+  '          <div class="zadanie_odpowiedz">' +
+  '            <button id="Zad83" class="zadanie-button">Odpowiedź</button>' +
+  '            <p id="Odp83" class="inactive-chekbox">lorem 100</p>' +
+  "          </div>" +
+  '<div class="nav-buttons">' +
+  '            <button class="zadanie-button" id="previousButton">' +
+  "              Poprzednie zadanie" +
+  "            </button>" +
+  '            <button class="zadanie-button" id="nextButton">' +
+  "              Następne zadanie" +
+  "            </button>" +
   "          </div>" +
   "        </div>" +
   "      </div>";

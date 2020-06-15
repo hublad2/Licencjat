@@ -83,6 +83,14 @@ var zad6DOM =
   '            <button id="Zad63" class="zadanie-button">Odpowiedź</button>' +
   '            <p id="Odp63" class="inactive-chekbox">Odpowiedź -</p>' +
   "          </div>" +
+  '<div class="nav-buttons">' +
+  '            <button class="zadanie-button" id="previousButton">' +
+  "              Poprzednie zadanie" +
+  "            </button>" +
+  '            <button class="zadanie-button" id="nextButton">' +
+  "              Następne zadanie" +
+  "            </button>" +
+  "          </div>" +
   "        </div>" +
   "      </div>";
 

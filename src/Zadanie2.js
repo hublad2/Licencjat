@@ -14,18 +14,15 @@ let zad2DOM =
   "            <span><span> </span></span>" +
   "          </p>" +
   "          <p>" +
-  "            <span" +
-  "              >1. Czy w układzie peronu, równoległego do pociągu, tor" +
-  "              ruchu piłki będzie inny niż w układzie pociągu?</span" +
-  "            >" +
+  "              1. Czy w układzie peronu, równoległego do pociągu, tor" +
+  "              ruchu piłki będzie inny niż w układzie pociągu?  " +
   "          </p>" +
   '          <div class="zadanie1_odp">' +
   "            <p>" +
   "              a) Nie, we wszystkich układach tor piłki będzie taki sam." +
   "            </p>" +
   '            <input type="checkbox" id="Zad211" />' +
-  '            <i class="fas fa-check mark-check-green inactive"></i>' +
-  '            <i class="fas fa-times mark-check-red inactive"></i>' +
+  '            <i class="fas fa-times mark-check-red inactive" id="red-mark-Zad211"></i>' +
   "          </div>" +
   '          <div class="zadanie1_odp">' +
   "            <p>" +
@@ -33,16 +30,14 @@ let zad2DOM =
   "              będzie zakrzywiony." +
   "            </p>" +
   '            <input type="checkbox" id="Zad212" />' +
-  '            <i class="fas fa-check mark-check-green inactive"></i>' +
-  '            <i class="fas fa-times mark-check-red inactive"></i>' +
+  '            <i class="fas fa-check mark-check-green inactive" id="green-mark-Zad212"></i>' +
   "          </div>" +
   '          <div class="zadanie1_odp">' +
   "            <p>" +
   "              c) Tak, w układzie peronu tor piłki będzie linią prostą." +
   "            </p>" +
   '            <input type="checkbox" id="Zad213" />' +
-  '            <i class="fas fa-check mark-check-green inactive"></i>' +
-  '            <i class="fas fa-times mark-check-red inactive"></i>' +
+  '            <i class="fas fa-times mark-check-red inactive" id="red-mark-Zad213"></i>' +
   "          </div>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad21" class="zadanie-button">Sprawdź</button>' +
@@ -57,6 +52,14 @@ let zad2DOM =
   '            <p id="Odp22" class="inactive-chekbox">' +
   "              Odpowiedź - " +
   "            </p>" +
+  "          </div>" +
+  '<div class="nav-buttons">' +
+  '            <button class="zadanie-button" id="previousButton">' +
+  "              Poprzednie zadanie" +
+  "            </button>" +
+  '            <button class="zadanie-button" id="nextButton">' +
+  "              Następne zadanie" +
+  "            </button>" +
   "          </div>" +
   "        </div>";
 

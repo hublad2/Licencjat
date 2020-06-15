@@ -73,11 +73,13 @@ var zad4DOM =
   "            temperatury na planecie." +
   "          </p>" +
   '          <img src="assets/green.png" alt="Schemat" class="img-container">' +
+  '          <div class="zadanie_odpowiedz">' +
+  '            <button id="Zad42" class="zadanie-button">Odpowiedź</button>' +
+  '            <p id="Odp42" class="inactive-chekbox">Odpowiedź -</p>' +
+  "          </div>" +
   '          <p dir="ltr">' +
-  "            <span" +
-  "              >3. Lądujemy na Wenus. Korzystając z wykresu odpowiedz na" +
-  "              pytania.</span" +
-  "            >" +
+  "              3. Lądujemy na Wenus. Korzystając z wykresu odpowiedz na" +
+  "              pytania." +
   "          </p>" +
   '          <div class="chart-container">' +
   '            <canvas id="myChart"></canvas>' +
@@ -122,8 +124,14 @@ var zad4DOM =
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad42" class="zadanie-button">Sprawdź</button>' +
   "          </div>" +
-  "          <p><span> </span></p>" +
-  "          <p><span> </span></p>" +
+  '<div class="nav-buttons">' +
+  '            <button class="zadanie-button" id="previousButton">' +
+  "              Poprzednie zadanie" +
+  "            </button>" +
+  '            <button class="zadanie-button" id="nextButton">' +
+  "              Następne zadanie" +
+  "            </button>" +
+  "          </div>" +
   "        </div>" +
   "      </div>";
 

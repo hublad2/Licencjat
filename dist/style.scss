@@ -72,6 +72,12 @@ body {
     padding: 10px;
   }
 
+  &_film {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+  }
+
   @media (max-width: 800px) {
     margin-bottom: 100px;
   }
@@ -314,4 +320,15 @@ body {
 
 .zadanie52_odpowiedz {
   margin-bottom: 50px;
+}
+
+.nav-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.only-next-button {
+  justify-content: flex-end;
 }

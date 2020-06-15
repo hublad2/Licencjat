@@ -42,6 +42,7 @@ const container = document.querySelector(".container");
 const spisZadan = document.querySelector("#spis-zadan");
 
 let spisZadanActive = true;
+let currentProblem = 0;
 
 let spisZadanDOM =
   '<div class="list-zadania">' +
@@ -81,264 +82,373 @@ function initList() {
   const zadaniaList = document.querySelectorAll(".list-item-zadanie");
 
   zadaniaList[0].addEventListener("click", () => {
-    spisZadanActive = false;
-    while (container.hasChildNodes()) container.firstChild.remove();
-    let zadanie = getHTMLZad1();
-    container.insertAdjacentHTML("beforeend", zadanie);
-    onYouTubePlayerAPIReady("p5m4TCN5upQ", 1, 21, "video1");
-    initListenersType1(
-      "#Zad11",
-      "#Zad111",
-      "#Zad112",
-      "#Zad113",
-      "#Zad12",
-      "#Odp12"
-    );
-    appendScripts();
+    initProblem(1);
   });
 
   zadaniaList[1].addEventListener("click", () => {
-    spisZadanActive = false;
-    while (container.hasChildNodes()) container.firstChild.remove();
-    let zadanie = getHTMLZad2();
-    container.insertAdjacentHTML("beforeend", zadanie);
-    initListenersType1(
-      "#Zad21",
-      "#Zad211",
-      "#Zad212",
-      "#Zad213",
-      "#Zad22",
-      "#Odp22"
-    );
-    appendScripts();
+    initProblem(2);
   });
 
   zadaniaList[2].addEventListener("click", () => {
-    spisZadanActive = false;
-    while (container.hasChildNodes()) container.firstChild.remove();
-    let zadanie = getHTMLZad3();
-    container.insertAdjacentHTML("beforeend", zadanie);
-    const Zad31 = document.querySelector("#Zad31");
-    const Zad32 = document.querySelector("#Zad32");
-    const Odp31 = document.querySelector("#Odp31");
-    const Odp32 = document.querySelector("#Odp32");
-    initOnlyOpenAnswers([Zad31, Zad32], [Odp31, Odp32]);
-    appendScripts();
+    initProblem(3);
   });
 
   zadaniaList[3].addEventListener("click", () => {
-    spisZadanActive = false;
-    while (container.hasChildNodes()) container.firstChild.remove();
-    let zadanie = getHTMLZad4();
-    container.insertAdjacentHTML("beforeend", zadanie);
-    InitChart();
-    InitChooseTwo(
-      "#Zad411",
-      "#Zad412",
-      "#Zad41",
-      "#green-mark-Zad41",
-      "#red-mark-Zad41",
-      false
-    );
-    InitChooseTwo(
-      "#Zad421",
-      "#Zad422",
-      "#Zad42",
-      "#green-mark-Zad42",
-      "#red-mark-Zad42",
-      false
-    );
-    InitCheckValue(
-      "#Zad42",
-      "#Zad423",
-      100,
-      700,
-      "#green-mark-Zad43",
-      "#red-mark-Zad43",
-      false
-    );
-    appendScripts();
+    initProblem(4);
   });
 
   zadaniaList[4].addEventListener("click", () => {
-    spisZadanActive = false;
-    while (container.hasChildNodes()) container.firstChild.remove();
-    let zadanie = getHTMLZad5();
-    container.insertAdjacentHTML("beforeend", zadanie);
-    const Zad51 = document.querySelector("#Zad51");
-    const Zad53 = document.querySelector("#Zad53");
-    const Odp51 = document.querySelector("#Odp51");
-    const Odp53 = document.querySelector("#Odp53");
-    initOnlyOpenAnswers([Zad51, Zad53], [Odp51, Odp53]);
-    InitChooseOneFromThree(
-      "#Zad521",
-      "#Zad522",
-      "#Zad523",
-      "#Zad52",
-      "#green-mark-Zad523",
-      "#red-mark-Zad521",
-      "#red-mark-Zad522",
-      true
-    );
-    appendScripts();
+    initProblem(5);
   });
 
   zadaniaList[5].addEventListener("click", () => {
-    spisZadanActive = false;
-    while (container.hasChildNodes()) container.firstChild.remove();
-    let zadanie = getHTMLZad6();
-    container.insertAdjacentHTML("beforeend", zadanie);
-    const Zad62 = document.querySelector("#Zad62");
-    const Zad63 = document.querySelector("#Zad63");
-    const Odp62 = document.querySelector("#Odp62");
-    const Odp63 = document.querySelector("#Odp63");
-    initOnlyOpenAnswers([Zad62, Zad63], [Odp62, Odp63]);
-    InitChooseTwo(
-      "#Zad611",
-      "#Zad612",
-      "#Zad61",
-      "#green-mark-Zad61a",
-      "#red-mark-Zad61a",
-      false
-    );
-    InitChooseTwo(
-      "#Zad613",
-      "#Zad614",
-      "#Zad61",
-      "#green-mark-Zad61b",
-      "#red-mark-Zad61b",
-      false
-    );
-    onYouTubePlayerAPIReady("yVkdfJ9PkRQ", 1, 21, "video2");
-    onYouTubePlayerAPIReady("xXXF2C-vrQE", 1, 21, "video3");
-    onYouTubePlayerAPIReady("FwraiTcshVU", 1, 21, "video4");
-    appendScripts();
+    initProblem(6);
   });
 
   zadaniaList[6].addEventListener("click", () => {
-    spisZadanActive = false;
-    while (container.hasChildNodes()) container.firstChild.remove();
-    let zadanie = getHTMLZad7();
-    container.insertAdjacentHTML("beforeend", zadanie);
-    onYouTubePlayerAPIReady("1Xp_imnO6WE", 1, 21, "video5");
-    appendScripts();
+    initProblem(7);
   });
 
   zadaniaList[7].addEventListener("click", () => {
-    spisZadanActive = false;
-    while (container.hasChildNodes()) container.firstChild.remove();
-    let zadanie = getHTMLZad8();
-    container.insertAdjacentHTML("beforeend", zadanie);
-    const Zad81 = document.querySelector("#Zad81");
-    const Odp81 = document.querySelector("#Odp81");
-    initOnlyOpenAnswers([Zad81], [Odp81]);
-    InitChooseTwo(
-      "#Zad822",
-      "#Zad821",
-      "#Zad82",
-      "#green-mark-Zad82",
-      "#red-mark-Zad82",
-      false
-    );
-    appendScripts();
+    initProblem(8);
   });
 
   zadaniaList[8].addEventListener("click", () => {
-    spisZadanActive = false;
-    while (container.hasChildNodes()) container.firstChild.remove();
-    let zadanie = getHTMLZad9();
-    container.insertAdjacentHTML("beforeend", zadanie);
-    const Zad92 = document.querySelector("#Zad92");
-    const Odp92 = document.querySelector("#Odp92");
-    initOnlyOpenAnswers([Zad92], [Odp92]);
-    InitChooseTwo(
-      "#Zad912",
-      "#Zad911",
-      "#Zad91",
-      "#green-mark-Zad91",
-      "#red-mark-Zad91",
-      false
-    );
-    onYouTubePlayerAPIReady("UKbcBKNu4WE", 1, 21, "video6");
-    appendScripts();
+    initProblem(9);
   });
 
   zadaniaList[9].addEventListener("click", () => {
-    spisZadanActive = false;
-    while (container.hasChildNodes()) container.firstChild.remove();
-    let zadanie = getHTMLZad10();
-    container.insertAdjacentHTML("beforeend", zadanie);
-    const Zad101 = document.querySelector("#Zad101");
-    const Odp101 = document.querySelector("#Odp101");
-    const Zad103 = document.querySelector("#Zad103");
-    const Odp103 = document.querySelector("#Odp103");
-    initOnlyOpenAnswers([Zad101, Zad103], [Odp101, Odp103]);
-    InitChooseTwo(
-      "#Zad1021",
-      "#Zad1022",
-      "#Zad102",
-      "#green-mark-Zad102",
-      "#red-mark-Zad102",
-      false
-    );
-    onYouTubePlayerAPIReady("_yEu2R1gYSs", 1, 21, "video7");
-    appendScripts();
+    initProblem(10);
   });
 
   zadaniaList[10].addEventListener("click", () => {
-    spisZadanActive = false;
-    while (container.hasChildNodes()) container.firstChild.remove();
-    let zadanie = getHTMLZad11();
-    container.insertAdjacentHTML("beforeend", zadanie);
-    const Zad111 = document.querySelector("#Zad111");
-    const Odp111 = document.querySelector("#Odp111");
-    const Zad112 = document.querySelector("#Zad112");
-    const Odp112 = document.querySelector("#Odp112");
-    initOnlyOpenAnswers([Zad111, Zad112], [Odp111, Odp112]);
-    appendScripts();
+    initProblem(11);
   });
 
   zadaniaList[11].addEventListener("click", () => {
-    spisZadanActive = false;
-    while (container.hasChildNodes()) container.firstChild.remove();
-    let zadanie = getHTMLZad12();
-    container.insertAdjacentHTML("beforeend", zadanie);
-    const Zad122 = document.querySelector("#Zad122");
-    const Odp122 = document.querySelector("#Odp122");
-    initOnlyOpenAnswers([Zad122], [Odp122]);
-    InitChooseOneFromThree(
-      "#Zad1211",
-      "#Zad1213",
-      "#Zad1212",
-      "#Zad121",
-      "#green-mark-Zad1212",
-      "#red-mark-Zad1211",
-      "#red-mark-Zad1213",
-      true
-    );
-    appendScripts();
+    initProblem(12);
   });
 
   zadaniaList[12].addEventListener("click", () => {
-    spisZadanActive = false;
-    while (container.hasChildNodes()) container.firstChild.remove();
-    let zadanie = getHTMLZad13();
-    container.insertAdjacentHTML("beforeend", zadanie);
-    const Zad132 = document.querySelector("#Zad132");
-    const Odp132 = document.querySelector("#Odp132");
-    InitMultipleAnserwsFromThree("#Zad131", "#Zad1311", "#Zad1312", "#Zad1313");
-    initOnlyOpenAnswers([Zad132], [Odp132]);
-    InitChooseOneFromThree(
-      "#Zad1331",
-      "#Zad1332",
-      "#Zad1333",
-      "#Zad133",
-      "#green-mark-Zad1333",
-      "#red-mark-Zad1331",
-      "#red-mark-Zad1332",
-      true
-    );
-    appendScripts();
+    initProblem(13);
+  });
+}
+
+function initProblem(problemId) {
+  switch (problemId) {
+    case 1:
+      currentProblem = 1;
+      spisZadanActive = false;
+      while (container.hasChildNodes()) container.firstChild.remove();
+      container.insertAdjacentHTML("beforeend", getHTMLZad1());
+      initNextButton();
+      onYouTubePlayerAPIReady("p5m4TCN5upQ", 1, 21, "video1");
+      initListenersType1(
+        "#Zad11",
+        "#Zad111",
+        "#Zad112",
+        "#Zad113",
+        "#Zad12",
+        "#Odp12"
+      );
+      appendScripts();
+      break;
+
+    case 2:
+      currentProblem = 2;
+      spisZadanActive = false;
+      while (container.hasChildNodes()) container.firstChild.remove();
+      container.insertAdjacentHTML("beforeend", getHTMLZad2());
+      initPreviousButton();
+      initNextButton();
+      InitChooseOneFromThree(
+        "#Zad211",
+        "#Zad212",
+        "#Zad213",
+        "#Zad21",
+        "#red-mark-Zad213",
+        "#red-mark-Zad211",
+        "#green-mark-Zad212",
+        true
+      );
+      appendScripts();
+      break;
+
+    case 3:
+      currentProblem = 3;
+      spisZadanActive = false;
+      while (container.hasChildNodes()) container.firstChild.remove();
+      container.insertAdjacentHTML("beforeend", getHTMLZad3());
+      initPreviousButton();
+      initNextButton();
+      const Zad31 = document.querySelector("#Zad31");
+      const Zad32 = document.querySelector("#Zad32");
+      const Odp31 = document.querySelector("#Odp31");
+      const Odp32 = document.querySelector("#Odp32");
+      initOnlyOpenAnswers([Zad31, Zad32], [Odp31, Odp32]);
+      appendScripts();
+      break;
+
+    case 4:
+      currentProblem = 4;
+      spisZadanActive = false;
+      while (container.hasChildNodes()) container.firstChild.remove();
+      container.insertAdjacentHTML("beforeend", getHTMLZad4());
+      initPreviousButton();
+      initNextButton();
+      InitChart();
+      const Zad42 = document.querySelector("#Zad42");
+      const Odp42 = document.querySelector("#Odp42");
+      initOnlyOpenAnswers([Zad42], [Odp42]);
+      InitChooseTwo(
+        "#Zad411",
+        "#Zad412",
+        "#Zad41",
+        "#green-mark-Zad41",
+        "#red-mark-Zad41",
+        false
+      );
+      InitChooseTwo(
+        "#Zad421",
+        "#Zad422",
+        "#Zad42",
+        "#green-mark-Zad42",
+        "#red-mark-Zad42",
+        false
+      );
+      InitCheckValue(
+        "#Zad42",
+        "#Zad423",
+        100,
+        700,
+        "#green-mark-Zad43",
+        "#red-mark-Zad43",
+        false
+      );
+      appendScripts();
+      break;
+
+    case 5:
+      currentProblem = 5;
+      spisZadanActive = false;
+      while (container.hasChildNodes()) container.firstChild.remove();
+      container.insertAdjacentHTML("beforeend", getHTMLZad5());
+      initPreviousButton();
+      initNextButton();
+      const Zad51 = document.querySelector("#Zad51");
+      const Zad53 = document.querySelector("#Zad53");
+      const Odp51 = document.querySelector("#Odp51");
+      const Odp53 = document.querySelector("#Odp53");
+      initOnlyOpenAnswers([Zad51, Zad53], [Odp51, Odp53]);
+      InitChooseOneFromThree(
+        "#Zad521",
+        "#Zad522",
+        "#Zad523",
+        "#Zad52",
+        "#green-mark-Zad523",
+        "#red-mark-Zad521",
+        "#red-mark-Zad522",
+        true
+      );
+      appendScripts();
+      break;
+
+    case 6:
+      currentProblem = 6;
+      spisZadanActive = false;
+      while (container.hasChildNodes()) container.firstChild.remove();
+      container.insertAdjacentHTML("beforeend", getHTMLZad6());
+      initPreviousButton();
+      initNextButton();
+      const Zad62 = document.querySelector("#Zad62");
+      const Zad63 = document.querySelector("#Zad63");
+      const Odp62 = document.querySelector("#Odp62");
+      const Odp63 = document.querySelector("#Odp63");
+      initOnlyOpenAnswers([Zad62, Zad63], [Odp62, Odp63]);
+      InitChooseTwo(
+        "#Zad611",
+        "#Zad612",
+        "#Zad61",
+        "#green-mark-Zad61a",
+        "#red-mark-Zad61a",
+        false
+      );
+      InitChooseTwo(
+        "#Zad613",
+        "#Zad614",
+        "#Zad61",
+        "#green-mark-Zad61b",
+        "#red-mark-Zad61b",
+        false
+      );
+      onYouTubePlayerAPIReady("yVkdfJ9PkRQ", 25, 97, "video2");
+      onYouTubePlayerAPIReady("sJG-rXBbmCc", 1613, 1624, "video3");
+      onYouTubePlayerAPIReady("FwraiTcshVU", 9, 26, "video4");
+      appendScripts();
+      break;
+
+    case 7:
+      currentProblem = 7;
+      spisZadanActive = false;
+      while (container.hasChildNodes()) container.firstChild.remove();
+      container.insertAdjacentHTML("beforeend", getHTMLZad7());
+      initPreviousButton();
+      initNextButton();
+      onYouTubePlayerAPIReady("1Xp_imnO6WE", 1, 21, "video5");
+      appendScripts();
+      break;
+
+    case 8:
+      currentProblem = 8;
+      spisZadanActive = false;
+      while (container.hasChildNodes()) container.firstChild.remove();
+      container.insertAdjacentHTML("beforeend", getHTMLZad8());
+      initPreviousButton();
+      initNextButton();
+      const Zad81 = document.querySelector("#Zad81");
+      const Odp81 = document.querySelector("#Odp81");
+      const Zad83 = document.querySelector("#Zad83");
+      const Odp83 = document.querySelector("#Odp83");
+      initOnlyOpenAnswers([Zad81, Zad83], [Odp81, Odp83]);
+      InitChooseTwo(
+        "#Zad822",
+        "#Zad821",
+        "#Zad82",
+        "#green-mark-Zad82",
+        "#red-mark-Zad82",
+        false
+      );
+      appendScripts();
+      break;
+
+    case 9:
+      currentProblem = 9;
+      spisZadanActive = false;
+      while (container.hasChildNodes()) container.firstChild.remove();
+      container.insertAdjacentHTML("beforeend", getHTMLZad9());
+      initPreviousButton();
+      initNextButton();
+      const Zad92 = document.querySelector("#Zad92");
+      const Odp92 = document.querySelector("#Odp92");
+      initOnlyOpenAnswers([Zad92], [Odp92]);
+      InitChooseTwo(
+        "#Zad912",
+        "#Zad911",
+        "#Zad91",
+        "#green-mark-Zad91",
+        "#red-mark-Zad91",
+        false
+      );
+      onYouTubePlayerAPIReady("UKbcBKNu4WE", 105, 124, "video6");
+      appendScripts();
+      break;
+
+    case 10:
+      currentProblem = 10;
+      spisZadanActive = false;
+      while (container.hasChildNodes()) container.firstChild.remove();
+      container.insertAdjacentHTML("beforeend", getHTMLZad10());
+      initPreviousButton();
+      initNextButton();
+      const Zad101 = document.querySelector("#Zad101");
+      const Odp101 = document.querySelector("#Odp101");
+      const Zad103 = document.querySelector("#Zad103");
+      const Odp103 = document.querySelector("#Odp103");
+      initOnlyOpenAnswers([Zad101, Zad103], [Odp101, Odp103]);
+      InitChooseTwo(
+        "#Zad1021",
+        "#Zad1022",
+        "#Zad102",
+        "#green-mark-Zad102",
+        "#red-mark-Zad102",
+        false
+      );
+      onYouTubePlayerAPIReady("_yEu2R1gYSs", 160, 223, "video7");
+      appendScripts();
+      break;
+
+    case 11:
+      currentProblem = 11;
+      spisZadanActive = false;
+      while (container.hasChildNodes()) container.firstChild.remove();
+      container.insertAdjacentHTML("beforeend", getHTMLZad11());
+      initPreviousButton();
+      initNextButton();
+      const Zad111 = document.querySelector("#Zad111");
+      const Odp111 = document.querySelector("#Odp111");
+      const Zad112 = document.querySelector("#Zad112");
+      const Odp112 = document.querySelector("#Odp112");
+      initOnlyOpenAnswers([Zad111, Zad112], [Odp111, Odp112]);
+      appendScripts();
+      break;
+
+    case 12:
+      currentProblem = 12;
+      spisZadanActive = false;
+      while (container.hasChildNodes()) container.firstChild.remove();
+      container.insertAdjacentHTML("beforeend", getHTMLZad12());
+      initPreviousButton();
+      initNextButton();
+      const Zad122 = document.querySelector("#Zad122");
+      const Odp122 = document.querySelector("#Odp122");
+      initOnlyOpenAnswers([Zad122], [Odp122]);
+      InitChooseOneFromThree(
+        "#Zad1211",
+        "#Zad1213",
+        "#Zad1212",
+        "#Zad121",
+        "#green-mark-Zad1212",
+        "#red-mark-Zad1211",
+        "#red-mark-Zad1213",
+        true
+      );
+      appendScripts();
+      break;
+
+    case 13:
+      currentProblem = 13;
+      spisZadanActive = false;
+      while (container.hasChildNodes()) container.firstChild.remove();
+      container.insertAdjacentHTML("beforeend", getHTMLZad13());
+      initPreviousButton();
+      initNextButton();
+      const Zad132 = document.querySelector("#Zad132");
+      const Odp132 = document.querySelector("#Odp132");
+      InitMultipleAnserwsFromThree(
+        "#Zad131",
+        "#Zad1311",
+        "#Zad1312",
+        "#Zad1313"
+      );
+      initOnlyOpenAnswers([Zad132], [Odp132]);
+      InitChooseOneFromThree(
+        "#Zad1331",
+        "#Zad1332",
+        "#Zad1333",
+        "#Zad133",
+        "#green-mark-Zad1333",
+        "#red-mark-Zad1331",
+        "#red-mark-Zad1332",
+        true
+      );
+      appendScripts();
+      break;
+  }
+}
+
+function initPreviousButton() {
+  const previousButton = document.querySelector("#previousButton");
+
+  previousButton.addEventListener("click", () => {
+    initProblem(currentProblem - 1);
+  });
+}
+
+function initNextButton() {
+  const nextButton = document.querySelector("#nextButton");
+
+  nextButton.addEventListener("click", () => {
+    initProblem(currentProblem + 1);
   });
 }
 

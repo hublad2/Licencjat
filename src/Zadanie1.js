@@ -10,7 +10,7 @@ let zad1DOM =
   "          <p>Spójrz na załączony film</p>" +
   "          <p>" +
   "            1. Przy zjawiskach które mogą, wyjaśniać zachowania kulek" +
-  "            dopisz P (Prawda), w przeciwnym wypadku dopisz F (Fałsz)" +
+  "            zaznacz kwadracik, w przeciwnym razie pozostaw pusty. [Wielokrotne]" +
   "          </p>" +
   '          <div class="zadanie1_odp">' +
   "            <p>- Różnice w gęstości cieczy w butelce </p>" +
@@ -46,6 +46,11 @@ let zad1DOM =
   '            <p id="Odp12" class="inactive-chekbox">' +
   "              Odpowiedź - " +
   "            </p>" +
+  "          </div>" +
+  '<div class="nav-buttons only-next-button">' +
+  '            <button class="zadanie-button" id="nextButton">' +
+  "              Następne zadanie" +
+  "            </button>" +
   "          </div>" +
   "        </div>" +
   " </div>";

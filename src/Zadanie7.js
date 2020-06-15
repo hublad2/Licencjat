@@ -11,6 +11,14 @@ var zad7DOM =
   "            1. Zaproponuj własne pomysły rozwiązania problemów przedstawionych w" +
   "            filmie." +
   "          </p>" +
+  '<div class="nav-buttons">' +
+  '            <button class="zadanie-button" id="previousButton">' +
+  "              Poprzednie zadanie" +
+  "            </button>" +
+  '            <button class="zadanie-button" id="nextButton">' +
+  "              Następne zadanie" +
+  "            </button>" +
+  "          </div>" +
   "        </div>" +
   "      </div>";
 

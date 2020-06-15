@@ -16,9 +16,9 @@ var zad10DOM =
   "            dlaczego magnes działa w ten sposób na obraz." +
   "          </p>" +
   "          <p>" +
-  "            Możesz skorzystać np. z tego artykułu" +
+  "            Możesz skorzystać np. z tego artykułu:" +
   '            <a href="https://pl.wikipedia.org/wiki/Monitor_kineskopowy"' +
-  "              >https://pl.wikipedia.org/wiki/Monitor_kineskopowy</a" +
+  "              >Monitor kineskopowy</a" +
   "            >" +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
@@ -59,13 +59,21 @@ var zad10DOM =
   "            Pomóc może ten artykuł:" +
   "            <a" +
   '              href="https://klinikadanych.pl/artykuly/budowa-i-dzialanie-dysku-twardego-jak-dziala-hdd"' +
-  "              >https://klinikadanych.pl/artykuly/budowa-i-dzialanie-dysku-twardego-jak-dziala-hdd</a" +
+  "              >Budowa i działanie dysku twardego - jak działa HDD</a" +
   "            >" +
   "            szczególnie działy talerze, głowice oraz zapis i odczyt danych." +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad103" class="zadanie-button">Odpowiedź</button>' +
   '            <p id="Odp103" class="inactive-chekbox">lorem 100</p>' +
+  "          </div>" +
+  '<div class="nav-buttons">' +
+  '            <button class="zadanie-button" id="previousButton">' +
+  "              Poprzednie zadanie" +
+  "            </button>" +
+  '            <button class="zadanie-button" id="nextButton">' +
+  "              Następne zadanie" +
+  "            </button>" +
   "          </div>" +
   "        </div>" +
   "      </div>";

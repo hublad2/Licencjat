@@ -118,6 +118,14 @@ var zad13DOM =
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad133" class="zadanie-button">Sprawdź</button>' +
   "          </div>" +
+  '<div class="nav-buttons">' +
+  '            <button class="zadanie-button" id="previousButton">' +
+  "              Poprzednie zadanie" +
+  "            </button>" +
+  '            <button class="zadanie-button" id="nextButton">' +
+  "              Następne zadanie" +
+  "            </button>" +
+  "          </div>" +
   "        </div>" +
   "      </div>";
 
