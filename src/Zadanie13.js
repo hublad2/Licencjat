@@ -79,7 +79,7 @@ var zad13DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad132" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp132" class="inactive-chekbox">Odpowiedź -</p>' +
+  '            <p id="Odp132" class="inactive-chekbox">Odpowiedź - Tak, szron może izolować wnętrze zamrażalnika od parownika, co utrudni pobieranie ciepła z wnętrza.</p>' +
   "          </div>" +
   "          <p>" +
   "            3. Do lodówki, w której wnętrzu panuje temperatura 5°C wsadzamy" +

@@ -19,7 +19,7 @@ var zad8DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad81" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp81" class="inactive-chekbox">lorem 100</p>' +
+  '            <p id="Odp81" class="inactive-chekbox">Odpowiedź - a) Mimo, że metale wykorzystywane do budowy statków, mają gęstość większą od gęstości wody, to przez ich kształt obejmują także wiele pustych przestrzeni (wypełnionych powietrzem). Licząc średnią gęstość takiej konstrukcji, okazuje się, że jej gęstość jest mniejsza od gęstości wody. b) Tak, aby to osiągnąć musimy, podobnie jak w przypadku statku, mieć dużo pustych przestrzeni ale tym razem wypełnionych gazem lżejszym od powietrza np. wodorem. Konstrukcje takie to np. sterowce, balony.</p>' +
   "          </div>" +
   "          <p>" +
   "            2. Łodzie podwodne mogą regulować swoje zanurzenie, poprzez" +
@@ -57,7 +57,7 @@ var zad8DOM =
   "</p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad83" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp83" class="inactive-chekbox">lorem 100</p>' +
+  '            <p id="Odp83" class="inactive-chekbox">Odpowiedź - ciśnienie wewnątrz łodzi podwodnej jest niższe niż na zewnątrz (w wodzie). Różnica ciśnieć pomiędzy wnętrzem łodzi a otoczeniem wzrasta wraz ze zwiększaniem głębokości. Siły wywierane na poszycie wzrastają i jeżeli przekroczą wartości, do których konstukcja jest przystosowana, łódź podwodna zostanie zgnieciona.</p>' +
   "          </div>" +
   '<div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +

@@ -70,7 +70,7 @@ var zad6DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad62" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp62" class="inactive-chekbox">lorem 100</p>' +
+  '            <p id="Odp62" class="inactive-chekbox">Odpowiedź - a) Wahadło puszczone w ten sposób bez prędkości początkowej ma maksymalną energię potencjalną w miejscu puszczania, dlatego po wykonaniu drgania, jeżeli nie ma strat energii, powinno wrócić w dokładnie to samo miejsce. <br> b) Gdyby profesor popchnął wahadło podczas puszczania go, wahadło miałoby zarówno energię potencjalną grawitacji w tym miejscu jak i energię kinetyczną od popchnięcia. Podczas powrotu do profesora cała energia zamieniłaby się w enegię potencjalną, czyli wahadło musiałoby wznieść się na wysokość wyższą, z której było puszczone.</p>' +
   "          </div>" +
   "          <p>3. Obejrzyj film.</p>" +
   '          <div class="zadanie_film zadanie6_film">' +
@@ -81,7 +81,7 @@ var zad6DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad63" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp63" class="inactive-chekbox">Odpowiedź -</p>' +
+  '            <p id="Odp63" class="inactive-chekbox">Odpowiedź - Głośnik, okresowo zwiększa i zmniejsza ciśnienie powietrza.</p>' +
   "          </div>" +
   '<div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +

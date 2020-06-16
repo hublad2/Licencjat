@@ -39,7 +39,7 @@ var zad9DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad92" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp92" class="inactive-chekbox">lorem 100</p>' +
+  '            <p id="Odp92" class="inactive-chekbox">Odpowiedź - Duża piłka uderzyła małą, przekazując jej część swojej energii.</p>' +
   "          </div>" +
   '<div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +

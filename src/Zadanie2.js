@@ -50,7 +50,7 @@ let zad2DOM =
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad22" class="zadanie-button">Odpowiedź</button>' +
   '            <p id="Odp22" class="inactive-chekbox">' +
-  "              Odpowiedź - " +
+  "              Odpowiedź - Osoba znajdująca się w pociągu porusza się z prędkością pociągu. Skakanie zmieni prędkość prostopadłą do prędkości pociągu, co oznacza że odległość przebywana wzdłuż prędkości pociągu się nie zmieni. Moglibyśmy wylądować w innym miejscu jeżeli coś w trakcie skakania zaczęłoby nas hamować np. gdybyśmy skakali na dachu pociągu i opór powietrza hamowałby nas w trakcie 'lotu'" +
   "            </p>" +
   "          </div>" +
   '<div class="nav-buttons">' +

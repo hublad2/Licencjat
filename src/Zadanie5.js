@@ -78,7 +78,7 @@ var zad5DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad53" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp53" class="inactive-chekbox">Odpowiedź -</p>' +
+  '            <p id="Odp53" class="inactive-chekbox">Odpowiedź - Aby samochód zmienił orbitę musiałby się od czegoś "odepchnąć". Rakiety zmieniają swoją prędkość "odpychając" się od gazów wylotowych. W przypadku samochodu elektrycznego nie mamy, żadnej masy którą możnaby odrzucić i zmienić pęd.</p>' +
   "          </div>" +
   '<div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +

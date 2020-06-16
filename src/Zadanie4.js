@@ -75,7 +75,7 @@ var zad4DOM =
   '          <img src="assets/green.png" alt="Schemat" class="img-container">' +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad42" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp42" class="inactive-chekbox">Odpowiedź -</p>' +
+  '            <p id="Odp42" class="inactive-chekbox">Odpowiedź - Dwutlenek węgla w atmosferze przepuszcza promieniowanie docierające ze Słońca, to następnie jest pochłonięte przez planetę i wypromienowane. Promienowanie od planety ma dłuższą długość fali i nie przechodzi tak łatwo przez atmosferę jak wcześniej, część zostaje odbita ponownie w kierunku planety i pochłonięta, co zwiększa temperaturę na jej powierzchni.</p>' +
   "          </div>" +
   '          <p dir="ltr">' +
   "              3. Lądujemy na Wenus. Korzystając z wykresu odpowiedz na" +

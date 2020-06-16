@@ -44,7 +44,7 @@ let zad1DOM =
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad12" class="zadanie-button">Odpowiedź</button>' +
   '            <p id="Odp12" class="inactive-chekbox">' +
-  "              Odpowiedź - " +
+  "              Odpowiedź - W butelce znajdują się dwie ciecze o różnych gęstościach, dodatkowo nie mieszają się. Dzięki temu ciecz mniej gęsta wypływa do góry. Kulki są mniej gęste od gęstej cieczy, ale bardziej gęste od mniej gęstej cieczy, dlatego znajdują się na granicy tych cieczy." +
   "            </p>" +
   "          </div>" +
   '<div class="nav-buttons only-next-button">' +

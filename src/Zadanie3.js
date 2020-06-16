@@ -59,7 +59,7 @@ let zad3DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad31" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp31" class="inactive-chekbox">Odpowiedź -</p>' +
+  '            <p id="Odp31" class="inactive-chekbox">Odpowiedź - Odległość Marsa od Słońca jest większa niż odległość Ziemi od Słońca, przez co mimo że Słońce świeci z taką samą mocą, to rozkłada się na większą powierzchnię.</p>' +
   "          </div>" +
   "          <p>" +
   "            2. W jaki sposób można wytłumaczyć różnicę w natężeniu" +
@@ -67,7 +67,7 @@ let zad3DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad32" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp32" class="inactive-chekbox">Odpowiedź -</p>' +
+  '            <p id="Odp32" class="inactive-chekbox">Odpowiedź - Orbita Merkurego nie jest kołowa, jego odległość od Słońca zmienia się.</p>' +
   "          </div>" +
   '<div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +

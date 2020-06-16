@@ -159,6 +159,9 @@ function initProblem(problemId) {
       spisZadanActive = false;
       while (container.hasChildNodes()) container.firstChild.remove();
       container.insertAdjacentHTML("beforeend", getHTMLZad2());
+      const Zad22 = document.querySelector("#Zad22");
+      const Odp22 = document.querySelector("#Odp22");
+      initOnlyOpenAnswers([Zad22], [Odp22]);
       initPreviousButton();
       initNextButton();
       InitChooseOneFromThree(

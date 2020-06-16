@@ -20,7 +20,7 @@ var zad11DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad111" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp111" class="inactive-chekbox">Odpowiedź -</p>' +
+  '            <p id="Odp111" class="inactive-chekbox">Odpowiedź - Gdyby prędkość światła była mniejsza, eksperyment Galileusza mógłby się powieść. Obecnie wiemy, że światło porusza się z prędkościa 300 tyśięcy kilometrów na sekundę, Galileusz potrzebował dużo dokładniejszych narzędzi pomiaru czasu i rejestrowania odsłonięcia przesłony.</p>' +
   "          </div>" +
   "          <p>" +
   "            2. Załóżmy, że chcemy przeprowadzić eksperyment Galileusza obecnie," +
@@ -29,7 +29,7 @@ var zad11DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad112" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp112" class="inactive-chekbox">Odpowiedź -</p>' +
+  '            <p id="Odp112" class="inactive-chekbox">Odpowiedź - Obecnie możnaby użyć dokładniejszych metod pomiaru czasu, laserów zamiast przesłon i lustra zamiast osoby odsłaniającej przesłonę. Dzięki temu musielibyśmy zmierzyć jedynie odległość do i od lustra oraz czas od włączenia lasera do zarejestrowania go w detektorze.</p>' +
   "          </div>" +
   '<div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +
