@@ -11,6 +11,8 @@ import { getHTMLZad10 } from "./Zadanie10";
 import { getHTMLZad11 } from "./Zadanie11";
 import { getHTMLZad12 } from "./Zadanie12";
 import { getHTMLZad13 } from "./Zadanie13";
+import { getHTMLZad14 } from "./Zadanie14";
+import { getHTMLZad15 } from "./Zadanie15";
 import { appendScripts, removeScripts } from "./scriptAppend";
 import {
   initListenersType1,
@@ -22,6 +24,7 @@ import {
 } from "./InitType1";
 import { onYouTubePlayerAPIReady } from "./videoNew";
 import { InitChart } from "./charts";
+import { InitChart2 } from "./chart2";
 import * as firebase from "firebase/app";
 import "firebase/analytics";
 
@@ -45,12 +48,26 @@ let spisZadanActive = true;
 let currentProblem = 0;
 
 let spisZadanDOM =
+  '<div class="wstep">' +
+  "        <p>" +
+  "          Zadania na stronie są przeznaczone do rozwiązywania wraz z" +
+  "          nauczycielem, nie zawierają zadań obliczeniowych. Skupiają się na" +
+  "          rozwijaniu intuicji fizycznej, rozumieniu zjawisk oraz analizie" +
+  "          danych." +
+  "        </p>" +
+  "        <p>" +
+  "          Zadania są odpowiednie dla uczniów 1 klasy liceum według przerabianego" +
+  "          materiału, ale mogą być również wykorzystywane przez uczniów młodszych" +
+  "          np. podczas omawiania, któregoś z działów czy na kółkach" +
+  "          przedmiotowych." +
+  "        </p>" +
+  "      </div>" +
   '<div class="list-zadania">' +
   "        <ul>" +
   '          <li><button class="list-item-zadanie">Kulki w butli</button></li>' +
   "        <li><button class='list-item-zadanie'>Pociąg</button></li>" +
   "          <li><button class='list-item-zadanie'>Słońce</button></li>" +
-  "          <li><button class='list-item-zadanie'>Wenus - atmosfera</button></li>" +
+  "          <li><button class='list-item-zadanie'>Wenus</button></li>" +
   "          <li><button class='list-item-zadanie'>Samochód na orbicie</button></li>" +
   "          <li><button class='list-item-zadanie'>Drgania</button></li>" +
   "          <li><button class='list-item-zadanie'>Kulki w butli</button></li>" +
@@ -60,8 +77,8 @@ let spisZadanDOM =
   "          <li><button class='list-item-zadanie'>Światło</button></li>" +
   "          <li><button class='list-item-zadanie'>Gwiazdy</button></li>" +
   "          <li><button class='list-item-zadanie'>Lodówka</button></li>" +
-  "          <li><button class='list-item-zadanie'>Zadanie 14</button></li>" +
-  "          <li><button class='list-item-zadanie'>Zadanie 15</button></li>" +
+  "          <li><button class='list-item-zadanie'>Powietrze</button></li>" +
+  "          <li><button class='list-item-zadanie'>Dźwięk</button></li>" +
   "        </ul>" +
   "      </div>";
 
@@ -131,6 +148,14 @@ function initList() {
 
   zadaniaList[12].addEventListener("click", () => {
     initProblem(13);
+  });
+
+  zadaniaList[13].addEventListener("click", () => {
+    initProblem(14);
+  });
+
+  zadaniaList[14].addEventListener("click", () => {
+    initProblem(15);
   });
 }
 
@@ -433,6 +458,64 @@ function initProblem(problemId) {
         "#red-mark-Zad1331",
         "#red-mark-Zad1332",
         true
+      );
+      appendScripts();
+      break;
+
+    case 14:
+      currentProblem = 14;
+      spisZadanActive = false;
+      while (container.hasChildNodes()) container.firstChild.remove();
+      container.insertAdjacentHTML("beforeend", getHTMLZad14());
+      initPreviousButton();
+      initNextButton();
+      InitChart2();
+      const Zad142 = document.querySelector("#Zad142");
+      const Odp142 = document.querySelector("#Odp142");
+      const Zad143 = document.querySelector("#Zad143");
+      const Odp143 = document.querySelector("#Odp143");
+      initOnlyOpenAnswers([Zad142, Zad143], [Odp142, Odp143]);
+      InitChooseOneFromThree(
+        "#Zad1411",
+        "#Zad1412",
+        "#Zad1413",
+        "#Zad141",
+        "#red-mark-Zad1413",
+        "#red-mark-Zad1411",
+        "#green-mark-Zad1412",
+        true
+      );
+      appendScripts();
+      break;
+
+    case 15:
+      currentProblem = 15;
+      spisZadanActive = false;
+      while (container.hasChildNodes()) container.firstChild.remove();
+      container.insertAdjacentHTML("beforeend", getHTMLZad15());
+      initPreviousButton();
+      const Zad153 = document.querySelector("#Zad153");
+      const Odp153 = document.querySelector("#Odp153");
+      const Zad154 = document.querySelector("#Zad154");
+      const Odp154 = document.querySelector("#Odp154");
+      initOnlyOpenAnswers([Zad153, Zad154], [Odp153, Odp154]);
+      InitChooseOneFromThree(
+        "#Zad1511",
+        "#Zad1512",
+        "#Zad1513",
+        "#Zad151",
+        "#red-mark-Zad1513",
+        "#green-mark-Zad1511",
+        "#red-mark-Zad1512",
+        true
+      );
+      InitChooseTwo(
+        "#Zad1521",
+        "#Zad1522",
+        "#Zad152",
+        "#green-mark-Zad152",
+        "#red-mark-Zad152",
+        false
       );
       appendScripts();
       break;

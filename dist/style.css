@@ -46,13 +46,115 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+}
+
+.wstep {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(200px, 500px);
+      grid-template-columns: minmax(200px, 500px);
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  margin-right: 100px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 18px;
+}
+
+@media (max-width: 1000px) {
+  .wstep {
+    margin: 0 30px;
+    font-size: 15px;
+  }
+}
+
+.wstep p:nth-child(1) {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.wstep p:nth-child(2) {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+}
+
+.list-zadania {
+  margin-top: 6vh;
+  margin-right: 100px;
+}
+
+@media (max-width: 1000px) {
+  .list-zadania {
+    margin-right: 0;
+  }
+}
+
+.list-zadania ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  text-align: center;
+}
+
+.list-zadania ul button {
+  width: 90%;
+}
+
+/*
+.list-item-zadanie {
+  margin: 10px 0;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid black;
+  text-decoration: none;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  border-radius: 0.12em;
+  font-size: 20px;
+}
+*/
+.list-item-zadanie {
+  margin: 10px 15px;
+  padding: 0.7em 1.4em;
+  border-radius: 0.15em;
+  text-decoration: none;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #3369ff;
+  -webkit-box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+          box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+}
+
+.list-item-zadanie:active {
+  top: 0.1em;
 }
 
 @media (min-width: 800px) {
@@ -222,6 +324,25 @@ body {
       grid-template-rows: 200px auto;
 }
 
+.zadanie14 {
+  -ms-grid-rows: 200px auto;
+      grid-template-rows: 200px auto;
+}
+
+.zadanie15 {
+  -ms-grid-rows: 200px auto;
+      grid-template-rows: 200px auto;
+}
+
+.zadanie15_tabela {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .embeded {
   max-width: 90vw;
 }
@@ -256,58 +377,6 @@ body {
 
 .inactive-chekbox {
   display: none;
-}
-
-.list-zadania {
-  margin-top: 12vh;
-}
-
-.list-zadania ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  text-align: center;
-}
-
-.list-zadania ul button {
-  width: 90%;
-}
-
-/*
-.list-item-zadanie {
-  margin: 10px 0;
-  padding: 0.35em 1.2em;
-  border: 0.1em solid black;
-  text-decoration: none;
-  font-weight: 300;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  border-radius: 0.12em;
-  font-size: 20px;
-}
-*/
-.list-item-zadanie {
-  margin: 10px 15px;
-  padding: 0.7em 1.4em;
-  border-radius: 0.15em;
-  text-decoration: none;
-  font-weight: 400;
-  color: #ffffff;
-  background-color: #3369ff;
-  -webkit-box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
-          box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  font-size: 20px;
-  position: relative;
-}
-
-.list-item-zadanie:active {
-  top: 0.1em;
 }
 
 .zadanie-button {

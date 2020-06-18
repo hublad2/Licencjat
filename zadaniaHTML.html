@@ -692,6 +692,267 @@
   </div>
 </div>
 
+<div class="zadanie zadanie14" ;="">
+  <div class="zadanie_hero zadanie14_hero">
+    <h2>Zadanie 14: Powietrze</h2>
+  </div>
+  <div class="zadanie_tresc zadanie14_tresc">
+    <p>
+      Spójrz na wykres zależności stosunku gęstości powietrza ρ do ρ0 od
+      wysokości nad poziomem morza.
+    </p>
+    <div class="chart-container">
+      <canvas id="myChart"></canvas>
+    </div>
+    <p>
+      1. Co można odczytać z przedstawionego wykresu?
+    </p>
+    <div class="zadanie1_odp">
+      <p>a) Gęstość powietrza rośnie wraz ze wzrostem wysokości n.p.m.</p>
+      <input type="checkbox" id="Zad1411" />
+      <i
+        class="fas fa-times mark-check-red inactive"
+        aria-hidden="true"
+        id="red-mark-Zad1411"
+      ></i>
+    </div>
+    <div class="zadanie1_odp">
+      <p>b) Gęstość powietrza maleje wraz ze wzrostem wysokości n.p.m.</p>
+      <input type="checkbox" id="Zad1412" />
+      <i
+        class="fas fa-times mark-check-green inactive"
+        aria-hidden="true"
+        id="green-mark-Zad1412"
+      ></i>
+    </div>
+    <div class="zadanie1_odp">
+      <p>c) Gęstość powietrza nie zależy od wysokości n.p.m.</p>
+      <input type="checkbox" id="Zad1413" />
+      <i
+        class="fas fa-check mark-check-red inactive"
+        aria-hidden="true"
+        id="red-mark-Zad1413"
+      ></i>
+    </div>
+    <div class="zadanie_odpowiedz">
+      <button id="Zad141" class="zadanie-button">Sprawdź</button>
+    </div>
+    <p>
+      2. W wysokich górach woda wrze w niższej temperaturze niż na poziomie 0 m
+      n.p.m. Możliwy jest też odwrotny efekt - w pewnych warunkach woda wrze w
+      temperaturze wyższej niż 100&deg;C.
+    </p>
+    <p>
+      Co możemy zrobić, aby uzyskać wodę wrzącą w temperaturze wyższej niż
+      100&deg;C?
+    </p>
+    <div class="zadanie_odpowiedz">
+      <button id="Zad142" class="zadanie-button">Odpowiedź</button>
+      <p id="Odp142" class="inactive-chekbox">Odpowiedź -</p>
+    </div>
+    <p>
+      3. Czy w wodzie o temperaturze 120&deg;C parzenie herbaty następowałoby
+      szybciej? Odpowiedź uzasadnij.
+    </p>
+    <div class="zadanie_odpowiedz">
+      <button id="Zad143" class="zadanie-button">Odpowiedź</button>
+      <p id="Odp143" class="inactive-chekbox">Odpowiedź -</p>
+    </div>
+    <div class="nav-buttons">
+      <button class="zadanie-button" id="previousButton">
+        Poprzednie zadanie
+      </button>
+      <button class="zadanie-button" id="nextButton">
+        Następne zadanie
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="zadanie zadanie15" ;="">
+  <div class="zadanie_hero zadanie15_hero">
+    <h2>Zadanie 15: Dźwięk</h2>
+  </div>
+  <div class="zadanie_tresc zadanie15_tresc">
+    <p>
+      Chcemy zmierzyć prędkość dźwięku w powietrzu, w tym celu została
+      przygotowana aparatura widoczna na obrazku.
+    </p>
+    <img
+      src="./assets/pomiar.jpg"
+      alt="Schemat aparatury pomiarowej"
+      class="img-container"
+    />
+    <p>
+      1. Pomiar jakich wielkości musimy przeprowadzić, aby obliczyć prędkość
+      dźwięku za pomocą tego zestawu?
+    </p>
+    <div class="zadanie1_odp">
+      <p>
+        a) Czasu, jaki upłynął od wysłania dźwięku z głośnika do zarejestrowania
+        go przez mikrofon, oraz odległości głośnik-mikrofon
+      </p>
+      <input type="checkbox" id="Zad1511" />
+      <i
+        class="fas fa-check mark-check-green inactive"
+        aria-hidden="true"
+        id="green-mark-Zad1511"
+      ></i>
+    </div>
+    <div class="zadanie1_odp">
+      <p>
+        b) Tylko czasu, jaki upłynął od wysłania dźwięku z głośnika do
+        zarejestrowania go przez mikrofon
+      </p>
+      <input type="checkbox" id="Zad1512" />
+      <i
+        class="fas fa-times mark-check-red inactive"
+        aria-hidden="true"
+        id="red-mark-Zad1512"
+      ></i>
+    </div>
+    <div class="zadanie1_odp">
+      <p>c) Możemy bezpośrednio zmierzyć prędkość dźwięku</p>
+      <input type="checkbox" id="Zad1513" />
+      <i
+        class="fas fa-times mark-check-red inactive"
+        aria-hidden="true"
+        id="red-mark-Zad1513"
+      ></i>
+    </div>
+    <div class="zadanie_odpowiedz">
+      <button id="Zad151" class="zadanie-button">Sprawdź</button>
+    </div>
+    <p>
+      2. Następnie zaczęto badać, czy temperatura powietrza ma wpływ na prędkość
+      rozchodzenia się dźwięku. Wyniki pomiarów przedstawiono w tabeli.
+      Niepewność pomiaru prędkości był równa 0,2 m/s.
+    </p>
+    <div class="zadanie_tabela zadanie15_tabela">
+      <table>
+        <tr>
+          <td><b>Temperatura [&deg;C]</b></td>
+          <td><b>Prędkość [m/s]</b></td>
+        </tr>
+        <tr>
+          <td>-40</td>
+          <td>306,5</td>
+        </tr>
+        <tr>
+          <td>-30</td>
+          <td>312,9</td>
+        </tr>
+        <tr>
+          <td>-20</td>
+          <td>319,3</td>
+        </tr>
+        <tr>
+          <td>-10</td>
+          <td>325,6</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>331,8</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>337,8</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>343,8</td>
+        </tr>
+        <tr>
+          <td>30</td>
+          <td>349,6</td>
+        </tr>
+        <tr>
+          <td>40</td>
+          <td>353,3</td>
+        </tr>
+      </table>
+    </div>
+    <p>
+      Na podstawie tabelki można stwierdzić, że prędkość dźwięku
+      <span
+        ><label for="Zad821">rośnie</label>
+        <input type="checkbox" id="Zad1521" /></span
+      >/
+      <span
+        ><label for="Zad822">maleje</label
+        ><input type="checkbox" id="Zad1522" />
+        <i
+          class="fas fa-check mark-check-green inactive-chekbox"
+          aria-hidden="true"
+          id="green-mark-Zad152"
+        ></i>
+        <i
+          class="fas fa-times mark-check-red inactive-chekbox"
+          aria-hidden="true"
+          id="red-mark-Zad152"
+        ></i
+      ></span>
+      wraz ze wzrostem temperatury powietrza.
+    </p>
+    <div class="zadanie_odpowiedz">
+      <button id="Zad152" class="zadanie-button">Sprawdź</button>
+    </div>
+    <p>
+      3. Czy fala dźwiękowa o długości fali lambda = 1 m będzie brzmiała inaczej
+      w zależności od temperatury powietrza? Odpowiedź uzasadnij.
+    </p>
+    <div class="zadanie_odpowiedz">
+      <button id="Zad153" class="zadanie-button">Odpowiedź</button>
+      <p id="Odp153" class="inactive-chekbox">Odpowiedź -</p>
+    </div>
+    <p>
+      4. Wdychając hel, przez krótki czas nasz głos wydaje się wyższy. Co może
+      być tego przyczyną?
+    </p>
+    <div class="zadanie_odpowiedz">
+      <button id="Zad154" class="zadanie-button">Odpowiedź</button>
+      <p id="Odp154" class="inactive-chekbox">Odpowiedź -</p>
+    </div>
+    <div class="nav-buttons">
+      <button class="zadanie-button" id="previousButton">
+        Poprzednie zadanie
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="list-zadania">
+  <ul>
+    <li><button class="list-item-zadanie">Kulki w butli</button></li>
+    <li><button class="list-item-zadanie">Pociąg</button></li>
+    <li><button class="list-item-zadanie">Słońce</button></li>
+    <li><button class="list-item-zadanie">Wenus</button></li>
+    <li><button class="list-item-zadanie">Samochód na orbicie</button></li>
+    <li><button class="list-item-zadanie">Drgania</button></li>
+    <li><button class="list-item-zadanie">Kulki w butli</button></li>
+    <li><button class="list-item-zadanie">Wyporność</button></li>
+    <li><button class="list-item-zadanie">Piłki</button></li>
+    <li><button class="list-item-zadanie">Magnesy</button></li>
+    <li><button class="list-item-zadanie">Światło</button></li>
+    <li><button class="list-item-zadanie">Gwiazdy</button></li>
+    <li><button class="list-item-zadanie">Lodówka</button></li>
+    <li><button class="list-item-zadanie">Powietrze</button></li>
+    <li><button class="list-item-zadanie">Dźwięk</button></li>
+  </ul>
+</div>
+
+<div class="wstep">
+  <p>
+    Zadania na stronie są przeznaczone do rozwiązywania wraz z nauczycielem, nie
+    zawierają zadań obliczeniowych. Skupiają się na rozwijaniu intuicji
+    fizycznej, rozumieniu zjawisk oraz analizie danych.
+  </p>
+  <p>
+    Zadania są odpowiednie dla uczniów 1 klasy liceum według przerabianego
+    materiału, ale mogą być również wykorzystywane przez uczniów młodszych np.
+    podczas omawiania, któregoś z działów czy na kółkach przedmiotowych.
+  </p>
+</div>
 <!-- 
   opis guzików, wstęp
   piątek 10:30 19.06

@@ -1,7 +1,7 @@
 var zad4DOM =
   '<div class="zadanie zadanie4" ;="">' +
   '        <div class="zadanie_hero zadanie4_hero">' +
-  "          <h2>Zadanie 4: Kulki w butli</h2>" +
+  "          <h2>Zadanie 4: Wenus</h2>" +
   "        </div>" +
   '        <div class="zadanie_tabela zadanie4_tabela">' +
   "          <table>" +
@@ -109,7 +109,7 @@ var zad4DOM =
   "            b) W jakiej odległości od Ziemi musielibyśmy się znaleźć, aby" +
   "            przyspieszenie ziemskie było równe temu z powierzchni Wenus?" +
   "          </p>" +
-  '          <label for="Zad423">Wpisz odległość:</label>' +
+  '          <label for="Zad423">Wpisz odległość (możesz pomylić się o 300 km):</label>' +
   '          <input type="number" id="Zad423" class="number-input" />' +
   "          <i" +
   '            class="fas fa-check mark-check-green inactive-chekbox"' +
