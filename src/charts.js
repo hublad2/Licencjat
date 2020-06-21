@@ -26,7 +26,7 @@ function InitChart() {
     labels: [0, 500, 1000, 1500, 2000, 2500],
     datasets: [
       {
-        label: "Natężenie grawitacyjne Ziemi",
+        label: "Natężenie pola grawitacyjnego Ziemi",
         function: function (x) {
           return 398455710 / Math.pow(x + 6370, 2);
         },
@@ -35,7 +35,7 @@ function InitChart() {
         fill: false,
       },
       {
-        label: "Natężenie grawitacyjne Wenus",
+        label: "Natężenie pola grawitacyjnego Wenus",
         function: function (x) {
           return 324370980 / Math.pow(x + 6052, 2);
         },
@@ -55,6 +55,20 @@ function InitChart() {
           {
             ticks: {
               beginAtZero: true,
+            },
+            scaleLabel: {
+              display: true,
+              labelString: "Natężenie pola grawitacyjnego (m/s^2)",
+              fontSize: 13,
+            },
+          },
+        ],
+        xAxes: [
+          {
+            scaleLabel: {
+              display: true,
+              labelString: "Odległość od powierzchni planety (km)",
+              fontSize: 13,
             },
           },
         ],

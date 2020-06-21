@@ -51,11 +51,11 @@ var zad12DOM =
   "          <p>" +
   "            2. Na wykresie, Słońce znajduje się w centrum z mocą promieniowania" +
   "            równą 1 i żółtym widmie. Skoro obserwowany kolor Słońca jest żółty," +
-  "            to w jaki sposób na Ziemi możemy obserwować inne kolory?" +
+  "            to dlaczego przepuszczając światło słoneczne przez pryzmat obserwujemy różne kolory?" +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
-  '            <button id="Zad122" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp122" class="inactive-chekbox">Odpowiedź -</p>' +
+  '            <button id="Zad122" class="zadanie-button">Przykładowa odpowiedź</button>' +
+  '            <p id="Odp122" class="inactive-chekbox">Słońce wydaje się żółte, ale w rzeczywistości promienuje w szerokim spektrum promieniowania. Nasze oczy interpretują to jako kolor biały, biało-żółty. Rozszczepiając wiązkę takiego promieniowania w pryzmacie, zmieniamy nieco bieg poszczególnych kolorów przez co da się je zauważyć.</p>' +
   "          </div>" +
   '<div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +

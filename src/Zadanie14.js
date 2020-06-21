@@ -54,16 +54,16 @@ var zad14DOM =
   "      100°C?" +
   "    </p>" +
   '    <div class="zadanie_odpowiedz">' +
-  '      <button id="Zad142" class="zadanie-button">Odpowiedź</button>' +
-  '      <p id="Odp142" class="inactive-chekbox">Odpowiedź - Możemy zwiększyć ciśnienie działające na wodę.</p>' +
+  '      <button id="Zad142" class="zadanie-button">Przykładowa odpowiedź</button>' +
+  '      <p id="Odp142" class="inactive-chekbox">Możemy zwiększyć ciśnienie działające na wodę.</p>' +
   "    </div>" +
   "    <p>" +
   "      3. Czy w wodzie o temperaturze 120°C parzenie herbaty następowałoby" +
   "      szybciej? Odpowiedź uzasadnij." +
   "    </p>" +
   '    <div class="zadanie_odpowiedz">' +
-  '      <button id="Zad143" class="zadanie-button">Odpowiedź</button>' +
-  '      <p id="Odp143" class="inactive-chekbox">Odpowiedź - Tak, ponieważ cząsteczki wody poruszałyby się szybciej w cieplejszej wodzie, co pomogłoby w rozprowadzeniu esencji herbacianej.</p>' +
+  '      <button id="Zad143" class="zadanie-button">Przykładowa odpowiedź</button>' +
+  '      <p id="Odp143" class="inactive-chekbox">Tak, ponieważ cząsteczki wody poruszałyby się szybciej w cieplejszej wodzie, co pomogłoby w rozprowadzeniu esencji herbacianej.</p>' +
   "    </div>" +
   '    <div class="nav-buttons">' +
   '      <button class="zadanie-button" id="previousButton">' +

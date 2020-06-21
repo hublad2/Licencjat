@@ -80,7 +80,11 @@ let spisZadanDOM =
   "          <li><button class='list-item-zadanie'>Powietrze</button></li>" +
   "          <li><button class='list-item-zadanie'>Dźwięk</button></li>" +
   "        </ul>" +
-  "      </div>";
+  "      </div>" +
+  "<footer>" +
+  "<span>Autor: Hubert Ładziński</span>" +
+  "<span>Zadania udostępnione są na otwartej licencji</span>" +
+  "</footer>";
 
 container.insertAdjacentHTML("beforeend", spisZadanDOM);
 initList();
@@ -239,13 +243,13 @@ function initProblem(problemId) {
       InitChooseTwo(
         "#Zad421",
         "#Zad422",
-        "#Zad42",
+        "#Zad43",
         "#green-mark-Zad42",
         "#red-mark-Zad42",
         false
       );
       InitCheckValue(
-        "#Zad42",
+        "#Zad43",
         "#Zad423",
         100,
         700,

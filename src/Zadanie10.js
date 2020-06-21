@@ -22,8 +22,8 @@ var zad10DOM =
   "            >" +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
-  '            <button id="Zad101" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp101" class="inactive-chekbox">Odpowiedź - W monitorze kineskopowym, strumień elektronów uderza w element pobudzany do świecenia (luminator). Kierunek strumienia jest kontrolowana przez magnes. Dlatego przybliżając inny, silny magnes do obudowy odchylamy całą wiązkę i elektrony padają w inne miejsca na luminatorze.</p>' +
+  '            <button id="Zad101" class="zadanie-button">Przykładowa odpowiedź</button>' +
+  '            <p id="Odp101" class="inactive-chekbox">W monitorze kineskopowym, strumień elektronów uderza w element pobudzany do świecenia (luminator). Kierunek strumienia jest kontrolowana przez magnes. Dlatego przybliżając inny, silny magnes do obudowy odchylamy całą wiązkę i elektrony padają w inne miejsca na luminatorze.</p>' +
   "          </div>" +
   "          <p>" +
   "            2. Czy użycie, tak samo silnego, elektromagnesu dałoby identyczny" +
@@ -64,7 +64,7 @@ var zad10DOM =
   "            szczególnie działy talerze, głowice oraz zapis i odczyt danych." +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
-  '            <button id="Zad103" class="zadanie-button">Odpowiedź</button>' +
+  '            <button id="Zad103" class="zadanie-button">Przykładowa odpowiedź</button>' +
   '            <p id="Odp103" class="inactive-chekbox">lorem 100</p>' +
   "          </div>" +
   '<div class="nav-buttons">' +

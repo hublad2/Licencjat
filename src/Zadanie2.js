@@ -6,8 +6,8 @@ let zad2DOM =
   '        <div class="zadanie_tresc zadanie2_tresc">' +
   "          <p>" +
   "            <span" +
-  "              >Jedziemy pociągiem, który porusza się ruchem jednostajnym," +
-  "              prostoliniowym i puszczamy w nim swobodnie piłkę tenisową.</span" +
+  "              >Jedziemy pociągiem, który porusza się ruchem jednostajnym" +
+  "              prostoliniowym, i puszczamy w nim swobodnie piłkę tenisową.</span" +
   "            >" +
   "          </p>" +
   "          <p>" +
@@ -34,7 +34,7 @@ let zad2DOM =
   "          </div>" +
   '          <div class="zadanie1_odp">' +
   "            <p>" +
-  "              c) Tak, w układzie peronu tor piłki będzie linią prostą." +
+  "              c) Tak, w układzie peronu tor piłki będzie linią prostą, ale nie pionową." +
   "            </p>" +
   '            <input type="checkbox" id="Zad213" />' +
   '            <i class="fas fa-times mark-check-red inactive" id="red-mark-Zad213"></i>' +
@@ -48,9 +48,9 @@ let zad2DOM =
   "            skoro pociąg jedzie?" +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
-  '            <button id="Zad22" class="zadanie-button">Odpowiedź</button>' +
+  '            <button id="Zad22" class="zadanie-button">Przykładowa odpowiedź</button>' +
   '            <p id="Odp22" class="inactive-chekbox">' +
-  "              Odpowiedź - Osoba znajdująca się w pociągu porusza się z prędkością pociągu. Skakanie zmieni prędkość prostopadłą do prędkości pociągu, co oznacza że odległość przebywana wzdłuż prędkości pociągu się nie zmieni. Moglibyśmy wylądować w innym miejscu jeżeli coś w trakcie skakania zaczęłoby nas hamować np. gdybyśmy skakali na dachu pociągu i opór powietrza hamowałby nas w trakcie 'lotu'" +
+  "              Osoba znajdująca się w pociągu porusza się z prędkością pociągu. Skakanie zmieni tylko prędkość prostopadłą do prędkości pociągu, co oznacza, że odległość przebywana wzdłuż kierunku prędkości pociągu się nie zmieni. Moglibyśmy wylądować w innym miejscu, jeżeli coś w trakcie skakania zaczęłoby nas hamować wzdłuż kierunku prędkości pociągu, np. gdybyśmy skakali na dachu pociągu i opór powietrza hamowałby nas w trakcie lotu." +
   "            </p>" +
   "          </div>" +
   '<div class="nav-buttons">' +

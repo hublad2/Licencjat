@@ -14,11 +14,11 @@ var zad6DOM =
   "          <p>" +
   "            Wahadło z przodu ma" +
   "            <span" +
-  '              ><label for="Zad611">większy</label>' +
+  '              ><label for="Zad611">dłuższy</label>' +
   '              <input type="checkbox" id="Zad611" /></span' +
   "            >/" +
   "            <span" +
-  '              ><label for="Zad612">mniejszy</label' +
+  '              ><label for="Zad612">krótszy</label' +
   '              ><input type="checkbox" id="Zad612" />' +
   "              <i" +
   '                class="fas fa-check mark-check-green inactive-chekbox"' +
@@ -31,13 +31,13 @@ var zad6DOM =
   '                id="red-mark-Zad61a"' +
   "              ></i" +
   "            ></span>" +
-  "            okres od tego widzianego na końca, ponieważ jest zawieszone na" +
+  "            okres od tego na końca, ponieważ jest zawieszone na" +
   "            <span" +
-  '              ><label for="Zad611">krótszej</label>' +
+  '              ><label for="Zad611">dłuższej</label>' +
   '              <input type="checkbox" id="Zad613" /></span' +
   "            >/" +
   "            <span" +
-  '              ><label for="Zad612">dłuższej</label' +
+  '              ><label for="Zad612">krótszej</label' +
   '              ><input type="checkbox" id="Zad614" />' +
   "              <i" +
   '                class="fas fa-check mark-check-green inactive-chekbox"' +
@@ -62,15 +62,14 @@ var zad6DOM =
   '            <div id="video3" class="embeded"></div>' +
   "          </div>" +
   "          <p>" +
-  "            a) Wyjaśnij dlaczego wahadło nie uderzyło profesora." +
+  "            a) Wyjaśnij, dlaczego wahadło nie uderzyło nauczyciela." +
   "          </p>" +
   "          <p>" +
-  "            b) Co musiałoby się stać, żeby wahadło jednak dotknęło prowadzącego," +
-  "            stojącego w tym samym miejscu." +
+  "            b) Co musiałby zrobić nauczyciela, żeby wahadło go dotknęło, mimo, że stał w tym samym miejscu." +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
-  '            <button id="Zad62" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp62" class="inactive-chekbox">Odpowiedź - a) Wahadło puszczone w ten sposób bez prędkości początkowej ma maksymalną energię potencjalną w miejscu puszczania, dlatego po wykonaniu drgania, jeżeli nie ma strat energii, powinno wrócić w dokładnie to samo miejsce. <br> b) Gdyby profesor popchnął wahadło podczas puszczania go, wahadło miałoby zarówno energię potencjalną grawitacji w tym miejscu jak i energię kinetyczną od popchnięcia. Podczas powrotu do profesora cała energia zamieniłaby się w enegię potencjalną, czyli wahadło musiałoby wznieść się na wysokość wyższą, z której było puszczone.</p>' +
+  '            <button id="Zad62" class="zadanie-button">Przykładowa odpowiedź</button>' +
+  '            <p id="Odp62" class="inactive-chekbox">a) Wahadło puszczone w ten sposób bez prędkości początkowej ma maksymalną energię potencjalną w miejscu puszczania, dlatego po pełnym cyklu, jeżeli nie ma strat energii, powinno wrócić w dokładnie to samo miejsce. <br> b) Nauczyciel powinien popchnąć wahadło. Gdyby profesor popchnął wahadło podczas puszczania go, wahadło miałoby zarówno energię potencjalną grawitacji w tym miejscu jak i energię kinetyczną dzięki popchnięciu. Podczas powrotu do profesora cała energia zamieniłaby się w enegię potencjalną, czyli wahadło musiałoby wznieść się na wysokość wyższą, z której było puszczone.</p>' +
   "          </div>" +
   "          <p>3. Obejrzyj film.</p>" +
   '          <div class="zadanie_film zadanie6_film">' +
@@ -80,8 +79,8 @@ var zad6DOM =
   "            Dlaczego płomień porusza się przy głośniku?" +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
-  '            <button id="Zad63" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp63" class="inactive-chekbox">Odpowiedź - Głośnik, okresowo zwiększa i zmniejsza ciśnienie powietrza.</p>' +
+  '            <button id="Zad63" class="zadanie-button">Przykładowa odpowiedź</button>' +
+  '            <p id="Odp63" class="inactive-chekbox">Głośnik, powoduje okresowe ruchy powietrza do przodu i do tyłu. Płomień porusza się w rytmie tych zmian.</p>' +
   "          </div>" +
   '<div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +

@@ -1,7 +1,7 @@
 let zad3DOM =
   '<div class="zadanie zadanie3">' +
   '        <div class="zadanie_hero zadanie3_hero">' +
-  "          <h2>Zadanie 3: Kulki w butli</h2>" +
+  "          <h2>Zadanie 3: Słońce</h2>" +
   "        </div>" +
   '        <div class="zadanie_tabela zadanie3_tabela">' +
   "          <table>" +
@@ -9,7 +9,7 @@ let zad3DOM =
   '              <td rowspan="2"><b>Planeta</b></td>' +
   '              <td colspan="2"><b>Odległość od Słońca (AU)</b></td>' +
   '              <td colspan="2">' +
-  "                <b>Natężenie promieniowania w miejscu planety (W/m^2)</b>" +
+  "                <b>Natężenie promieniowania (kW/m<sup>2</sup>)</b>" +
   "              </td>" +
   "            </tr>" +
   "            <tr>" +
@@ -36,17 +36,16 @@ let zad3DOM =
   "              <td>Mars</td>" +
   "              <td>1.382</td>" +
   "              <td>1.666</td>" +
-  "              <td>492</td>" +
-  "              <td>715</td>" +
+  "              <td>0.492</td>" +
+  "              <td>0.715</td>" +
   "            </tr>" +
   "          </table>" +
   "        </div>" +
   '        <div class="zadanie_tresc zadanie3_tresc">' +
   "          <p>" +
   "            <span" +
-  "              >Spójrz na załączoną tabelkę przedstawiającą natężenie" +
-  "              promieniowania słonecznego docierającego do planety, a także jej" +
-  "              odległość od Słońca. Odpowiedz na podstawie tych danych na" +
+  "              >Spójrz na tabelkę przedstawiającą odległośći planety od Słońca, a także natężeń promienowania w najbardziej nasłonecznionych punktach planety." +
+  "              Odpowiedz na podstawie tych danych na" +
   "              poniższe pytania. </span" +
   "            ><span>W zadaniu zakładamy, że Słońce świeci ze stałą mocą.</span>" +
   "          </p>" +
@@ -58,16 +57,16 @@ let zad3DOM =
   "            promieniowania docierającego do Ziemi i Marsa?" +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
-  '            <button id="Zad31" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp31" class="inactive-chekbox">Odpowiedź - Odległość Marsa od Słońca jest większa niż odległość Ziemi od Słońca, przez co mimo że Słońce świeci z taką samą mocą, to rozkłada się na większą powierzchnię.</p>' +
+  '            <button id="Zad31" class="zadanie-button">Przykładowa Odpowiedź</button>' +
+  '            <p id="Odp31" class="inactive-chekbox">Odległość Marsa od Słońca jest większa niż odległość Ziemi od Słońca, przez co mimo że Słońce świeci z taką samą mocą, to moc ta rozkłada się na większą powierzchnię.</p>' +
   "          </div>" +
   "          <p>" +
   "            2. W jaki sposób można wytłumaczyć różnicę w natężeniu" +
   "            promieniowania docierającego do Merkurego?" +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
-  '            <button id="Zad32" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp32" class="inactive-chekbox">Odpowiedź - Orbita Merkurego nie jest kołowa, jego odległość od Słońca zmienia się.</p>' +
+  '            <button id="Zad32" class="zadanie-button">Przykładowa odpowiedź</button>' +
+  '            <p id="Odp32" class="inactive-chekbox">Orbita Merkurego nie jest kołowa, jego odległość od Słońca zmienia się.</p>' +
   "          </div>" +
   '<div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +

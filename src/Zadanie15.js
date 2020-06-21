@@ -62,8 +62,8 @@ var zad15DOM =
   '          <div class="zadanie_tabela zadanie15_tabela">' +
   "            <table>" +
   "              <tr>" +
-  "                <td><b>Temperatura [°C]</b></td>" +
-  "                <td><b>Prędkość [m/s]</b></td>" +
+  "                <td><b>Temperatura (°C)</b></td>" +
+  "                <td><b>Prędkość (m/s)</b></td>" +
   "              </tr>" +
   "              <tr>" +
   "                <td>-40</td>" +
@@ -133,16 +133,16 @@ var zad15DOM =
   "            inaczej w zależności od temperatury powietrza? Odpowiedź uzasadnij." +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
-  '            <button id="Zad153" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp153" class="inactive-chekbox">Odpowiedź - Tak, wraz ze zmianą temperatury zmienia się prędkość dźwięku w powietrzu, co wpłynie też na jego częstotliwość.</p>' +
+  '            <button id="Zad153" class="zadanie-button">Przykładowa odpowiedź</button>' +
+  '            <p id="Odp153" class="inactive-chekbox">Tak, wraz ze zmianą temperatury zmienia się prędkość dźwięku w powietrzu, co wpłynie też na jego częstotliwość.</p>' +
   "          </div>" +
   "          <p>" +
   "            4. Wdychając hel, przez krótki czas nasz głos wydaje się wyższy. Co" +
   "            może być tego przyczyną?" +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
-  '            <button id="Zad154" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp154" class="inactive-chekbox">Odpowiedź - Dźwięk rozchodzi się szybciej w helu niż w powietrzu, dlatego dla tej semj długości fali uzyskujemy wyższą częstotliwość.</p>' +
+  '            <button id="Zad154" class="zadanie-button">Przykładowa odpowiedź</button>' +
+  '            <p id="Odp154" class="inactive-chekbox">Dźwięk rozchodzi się szybciej w helu niż w powietrzu, dlatego dla tej semj długości fali uzyskujemy wyższą częstotliwość.</p>' +
   "          </div>" +
   '          <div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +

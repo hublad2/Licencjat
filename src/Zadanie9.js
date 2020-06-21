@@ -38,8 +38,8 @@ var zad9DOM =
   "            się mała piłka?" +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
-  '            <button id="Zad92" class="zadanie-button">Odpowiedź</button>' +
-  '            <p id="Odp92" class="inactive-chekbox">Odpowiedź - Duża piłka uderzyła małą, przekazując jej część swojej energii.</p>' +
+  '            <button id="Zad92" class="zadanie-button">Przykładowa odpowiedź</button>' +
+  '            <p id="Odp92" class="inactive-chekbox">Duża piłka uderzyła małą, przekazując jej część swojej energii.</p>' +
   "          </div>" +
   '<div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +
