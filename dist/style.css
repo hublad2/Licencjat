@@ -30,21 +30,56 @@ body {
   padding: 30px 50px;
 }
 
+@media (max-width: 500px) {
+  .navigation {
+    padding: 30px 20px;
+  }
+}
+
 .logo {
   font-size: 22px;
   font-weight: 700;
+}
+
+@media (max-width: 500px) {
+  .logo {
+    font-size: 16px;
+  }
 }
 
 .menu_item {
   list-style: none;
 }
 
+@media (max-width: 1000px) {
+  .menu_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .menu-spis-button {
-  padding: 0.6em 1.1em;
+  padding: 8px 15px;
   text-decoration: none;
   text-align: center;
   font-size: 15px;
-  position: relative;
+}
+
+@media (max-width: 1000px) {
+  .menu-spis-button:nth-of-type(1) {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu-spis-button {
+    font-size: 13px;
+  }
 }
 
 .container {
