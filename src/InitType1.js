@@ -279,8 +279,11 @@ function initOnlyOpenAnswers(odpButtonArray, odpArray) {
 
 function ChangeClass(buttonElement, showElement) {
   buttonElement.addEventListener("click", () => {
-    if (showElement.classList.contains("inactive-chekbox"))
+    if (showElement.classList.contains("inactive-chekbox")) {
       showElement.classList.remove("inactive-chekbox");
+    } else {
+      showElement.classList.add("inactive-chekbox");
+    }
   });
 }
 

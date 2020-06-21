@@ -326,7 +326,26 @@ function initProblem(problemId) {
       container.insertAdjacentHTML("beforeend", getHTMLZad7());
       initPreviousButton();
       initNextButton();
-      onYouTubePlayerAPIReady("1Xp_imnO6WE", 1, 21, "video5");
+      const Zad71 = document.querySelector("#Zad71");
+      const Odp71 = document.querySelector("#Odp71");
+      const Zad72 = document.querySelector("#Zad72");
+      const Odp72 = document.querySelector("#Odp72");
+      const Zad73 = document.querySelector("#Zad73");
+      const Odp73 = document.querySelector("#Odp73");
+      const Zad74 = document.querySelector("#Zad74");
+      const Odp74 = document.querySelector("#Odp74");
+      initOnlyOpenAnswers(
+        [Zad71, Zad72, Zad73, Zad74],
+        [Odp71, Odp72, Odp73, Odp74]
+      );
+      onYouTubePlayerAPIReady("1Xp_imnO6WE", 1, 64, "videoProblem1");
+      onYouTubePlayerAPIReady("jIMihpDmBpY", 106, 140, "videoExp1");
+      onYouTubePlayerAPIReady("1Xp_imnO6WE", 109, 171, "videoProblem2");
+      onYouTubePlayerAPIReady("jIMihpDmBpY", 228, 310, "videoExp2");
+      onYouTubePlayerAPIReady("1Xp_imnO6WE", 173, 192, "videoProblem3");
+      onYouTubePlayerAPIReady("jIMihpDmBpY", 12, 104, "videoExp3");
+      onYouTubePlayerAPIReady("1Xp_imnO6WE", 195, 239, "videoProblem4");
+      onYouTubePlayerAPIReady("jIMihpDmBpY", 311, 353, "videoExp4");
       appendScripts();
       break;
 

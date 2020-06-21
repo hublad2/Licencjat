@@ -56,6 +56,23 @@ function InitChart2() {
             ticks: {
               beginAtZero: true,
             },
+            scaleLabel: {
+              display: true,
+              labelString: "Gęstość powietrza (kg/m^3)",
+              fontSize: 13,
+            },
+          },
+        ],
+        xAxes: [
+          {
+            ticks: {
+              beginAtZero: true,
+            },
+            scaleLabel: {
+              display: true,
+              labelString: "Wysokość nad poziomem morza (m)",
+              fontSize: 13,
+            },
           },
         ],
       },
