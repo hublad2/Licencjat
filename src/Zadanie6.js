@@ -8,9 +8,10 @@ var zad6DOM =
   "            1. Spójrz na film przedstawiający wiele wahadeł wprawionych w" +
   "            drgania równocześnie." +
   "          </p>" +
-  '          <div class="zadanie_film zadanie6_film">' +
+  '          <figure class="zadanie_film zadanie6_film">' +
   '            <div id="video2" class="embeded"></div>' +
-  "          </div>" +
+  "          <figcaption>Źródło: <a href='https://www.youtube.com/watch?v=yVkdfJ9PkRQ'>Pendulum Waves</a></figcaption>" +
+  "          </figure>" +
   "          <p>" +
   "            Wahadło z przodu ma" +
   "            <span" +
@@ -58,9 +59,10 @@ var zad6DOM =
   "          <p>" +
   "            2. Obejrzyj film." +
   "          </p>" +
-  '          <div class="zadanie_film zadanie6_film">' +
+  '          <figure class="zadanie_film zadanie6_film">' +
   '            <div id="video3" class="embeded"></div>' +
-  "          </div>" +
+  "          <figcaption>Źródło: <a href='https://www.youtube.com/watch?v=sJG-rXBbmCc'>For the Love of Physics - Walter Lewin - May 16, 2011</a></figcaption>" +
+  "          </figure>" +
   "          <p>" +
   "            a) Wyjaśnij, dlaczego wahadło nie uderzyło nauczyciela." +
   "          </p>" +
@@ -72,9 +74,10 @@ var zad6DOM =
   '            <p id="Odp62" class="inactive-chekbox">a) Wahadło puszczone w ten sposób bez prędkości początkowej ma maksymalną energię potencjalną w miejscu puszczania, dlatego po pełnym cyklu, jeżeli nie ma strat energii, powinno wrócić w dokładnie to samo miejsce. <br> b) Nauczyciel powinien popchnąć wahadło. Gdyby profesor popchnął wahadło podczas puszczania go, wahadło miałoby zarówno energię potencjalną grawitacji w tym miejscu jak i energię kinetyczną dzięki popchnięciu. Podczas powrotu do profesora cała energia zamieniłaby się w enegię potencjalną, czyli wahadło musiałoby wznieść się na wysokość wyższą, z której było puszczone.</p>' +
   "          </div>" +
   "          <p>3. Obejrzyj film.</p>" +
-  '          <div class="zadanie_film zadanie6_film">' +
+  '          <figure class="zadanie_film zadanie6_film">' +
   '            <div id="video4" class="embeded"></div>' +
-  "          </div>" +
+  "          <figcaption>Źródło: <a href='https://www.youtube.com/watch?v=FwraiTcshVU' target='_blank'>physics demonstrations Sound longitunal wave (science experiments)</a></figcaption>" +
+  "          </figure>" +
   "          <p>" +
   "            Dlaczego płomień porusza się przy głośniku?" +
   "          </p>" +

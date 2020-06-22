@@ -51,15 +51,14 @@ let spisZadanDOM =
   '<div class="wstep">' +
   "        <p>" +
   "          Zadania na stronie są przeznaczone do rozwiązywania wraz z" +
-  "          nauczycielem, nie zawierają zadań obliczeniowych. Skupiają się na" +
+  "          nauczycielem lub samodzielnie, nie zawierają zadań obliczeniowych. Skupiają się na" +
   "          rozwijaniu intuicji fizycznej, rozumieniu zjawisk oraz analizie" +
   "          danych." +
   "        </p>" +
   "        <p>" +
-  "          Zadania są odpowiednie dla uczniów 1 klasy liceum według przerabianego" +
-  "          materiału, ale mogą być również wykorzystywane przez uczniów młodszych" +
-  "          np. podczas omawiania, któregoś z działów czy na kółkach" +
-  "          przedmiotowych." +
+  "          Zadania są odpowiednie dla uczniów 1 klasy liceum," +
+  "          ale mogą być również wykorzystywane przez uczniów młodszych" +
+  "          np. na kółkach przedmiotowych." +
   "        </p>" +
   "      </div>" +
   '<div class="list-zadania">' +
@@ -70,7 +69,7 @@ let spisZadanDOM =
   "          <li><button class='list-item-zadanie'>Wenus</button></li>" +
   "          <li><button class='list-item-zadanie'>Samochód na orbicie</button></li>" +
   "          <li><button class='list-item-zadanie'>Drgania</button></li>" +
-  "          <li><button class='list-item-zadanie'>Kulki w butli</button></li>" +
+  "          <li><button class='list-item-zadanie'>Twoje pomysły</button></li>" +
   "          <li><button class='list-item-zadanie'>Wyporność</button></li>" +
   "          <li><button class='list-item-zadanie'>Piłki</button></li>" +
   "          <li><button class='list-item-zadanie'>Magnesy</button></li>" +
@@ -80,11 +79,7 @@ let spisZadanDOM =
   "          <li><button class='list-item-zadanie'>Powietrze</button></li>" +
   "          <li><button class='list-item-zadanie'>Dźwięk</button></li>" +
   "        </ul>" +
-  "      </div>" +
-  "<footer>" +
-  "<span>Autor: Hubert Ładziński</span>" +
-  "<span>Zadania udostępnione są na otwartej licencji</span>" +
-  "</footer>";
+  "      </div>";
 
 container.insertAdjacentHTML("beforeend", spisZadanDOM);
 initList();
@@ -477,9 +472,9 @@ function initProblem(problemId) {
         "#Zad1332",
         "#Zad1333",
         "#Zad133",
-        "#green-mark-Zad1333",
+        "#red-mark-Zad1333",
         "#red-mark-Zad1331",
-        "#red-mark-Zad1332",
+        "#green-mark-Zad1332",
         true
       );
       appendScripts();

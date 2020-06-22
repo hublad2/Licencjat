@@ -5,11 +5,12 @@ var zad9DOM =
   "        </div>" +
   '        <div class="zadanie_tresc zadanie9_tresc">' +
   "          <p>Przyjrzyj się zachowaniu piłek na filmie.</p>" +
-  '          <div class="zadanie_film zadanie9_film">' +
+  '          <figure class="zadanie_film zadanie9_film">' +
   '            <div id="video6" class="embeded"></div>' +
-  "          </div>" +
+  "          <figcaption>Źródło: <a href='https://www.youtube.com/watch?v=UKbcBKNu4WE' target='_blank'>Simple Physics Demos</a></figcaption>" +
+  "          </figure>" +
   "          <p>" +
-  "            1. Duża piłka upuszczona razem z małą, odbiła się na" +
+  "            1. Duża piłka upuszczona razem z małą odbiła się na" +
   "            <span" +
   '              ><label for="Zad911">większą</label>' +
   '              <input type="checkbox" id="Zad911" /></span' +
@@ -28,7 +29,7 @@ var zad9DOM =
   '                id="red-mark-Zad91"' +
   "              ></i" +
   "            ></span>" +
-  "            wysokość w stosunku gdy odbijała się sama." +
+  "            wysokość w stosunku do sytuacji, gdy odbijała się sama, upuszczona z takiej samej wysokości." +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad91" class="zadanie-button">Sprawdź</button>' +

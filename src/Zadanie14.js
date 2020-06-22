@@ -5,7 +5,7 @@ var zad14DOM =
   "  </div>" +
   '  <div class="zadanie_tresc zadanie14_tresc">' +
   "    <p>" +
-  "      Spójrz na wykres zależności stosunku gęstości powietrza ρ do ρ0 od" +
+  "      Spójrz na wykres zależności gęstości powietrza od" +
   "      wysokości nad poziomem morza." +
   "    </p>" +
   '    <div class="chart-container">' +
@@ -63,7 +63,7 @@ var zad14DOM =
   "    </p>" +
   '    <div class="zadanie_odpowiedz">' +
   '      <button id="Zad143" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '      <p id="Odp143" class="inactive-chekbox">Tak, ponieważ cząsteczki wody poruszałyby się szybciej w cieplejszej wodzie, co pomogłoby w rozprowadzeniu esencji herbacianej.</p>' +
+  '      <p id="Odp143" class="inactive-chekbox">Tak, ponieważ cząsteczki wody i liści herbaty poruszałyby się szybciej w wyższej temperaturze, co prowadziłoby do szybszego uwalniania substancji chemicznych z liści herbaty.</p>' +
   "    </div>" +
   '    <div class="nav-buttons">' +
   '      <button class="zadanie-button" id="previousButton">' +

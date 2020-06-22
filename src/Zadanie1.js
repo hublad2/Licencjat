@@ -5,9 +5,10 @@ let zad1DOM =
   "        </div>" +
   '        <div class="zadanie_tresc zadanie1_tresc">' +
   "          <p>Spójrz na film.</p>" +
-  '        <div class="zadanie_film zadanie1_film">' +
+  '        <figure class="zadanie_film zadanie1_film">' +
   '          <div id="video1" class="embeded"></div>' +
-  "        </div>" +
+  "          <figcaption>Źródło: <a href='https://www.youtube.com/watch?v=p5m4TCN5upQ' target='_blank'>Dynamic Density Bottle</a></figcaption>" +
+  "        </figure>" +
   "          <p>" +
   "            1. Przy wszystkich zjawiskach, które mogą wyjaśniać zachowania kulek," +
   "            zaznacz kwadracik, w przeciwnym razie pozostaw pusty." +

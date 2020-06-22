@@ -58,7 +58,8 @@ function InitChart() {
             },
             scaleLabel: {
               display: true,
-              labelString: "Natężenie pola grawitacyjnego (m/s^2)",
+              labelString:
+                "Natężenie pola grawitacyjnego (m/s" + "\u00B2" + ")",
               fontSize: 13,
             },
           },

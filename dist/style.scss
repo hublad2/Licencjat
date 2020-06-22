@@ -82,7 +82,7 @@ body {
 
 .wstep {
   display: grid;
-  grid-template-columns: minmax(200px, 500px);
+  grid-template-columns: minmax(200px, 700px);
   grid-template-rows: 1fr 1fr;
   align-items: center;
   font-size: 18px;
@@ -154,17 +154,30 @@ footer {
   grid-template-columns: 1fr;
   gap: 20px;
   text-align: center;
+  justify-content: center;
 }
 
 @media (min-width: 550px) {
   footer {
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto auto;
   }
 
   footer span:nth-of-type(1) {
     border-right: 1px solid gray;
     padding-right: 20px;
   }
+}
+
+/* Figure */
+
+.img-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-figure figcaption {
+  padding: 10px;
 }
 
 /* Zadania */
@@ -200,11 +213,13 @@ footer {
   &_film {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 40px 0;
   }
 
-  @media (max-width: 800px) {
-    margin-bottom: 100px;
+  &_film figcaption {
+    padding: 10px;
   }
 
   @media (min-width: 1200px) {
@@ -223,10 +238,6 @@ footer {
     &_film {
       margin: 30px 0;
     }
-  }
-
-  @media (max-width: 800px) {
-    margin-bottom: 100px;
   }
 }
 
@@ -391,7 +402,7 @@ footer {
 .img-container {
   display: block;
   max-width: 90%;
-  margin: 30px auto;
+  margin: 20px auto;
 }
 
 @media (max-width: 800px) {
@@ -409,7 +420,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 100px 0;
+  margin: 100px 0 50px 0;
 }
 
 .only-next-button {

@@ -129,12 +129,12 @@ var zad15DOM =
   '            <button id="Zad152" class="zadanie-button">Sprawdź</button>' +
   "          </div>" +
   "          <p>" +
-  "            3. Czy fala dźwiękowa o długości fali lambda = 1 m będzie brzmiała" +
+  "            3. Czy fala dźwiękowa o długości fali &lambda; = 1 m będzie brzmiała" +
   "            inaczej w zależności od temperatury powietrza? Odpowiedź uzasadnij." +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad153" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '            <p id="Odp153" class="inactive-chekbox">Tak, wraz ze zmianą temperatury zmienia się prędkość dźwięku w powietrzu, co wpłynie też na jego częstotliwość.</p>' +
+  '            <p id="Odp153" class="inactive-chekbox">Tak, wraz ze zmianą temperatury zmienia się prędkość dźwięku w powietrzu, co wpłynie też na jego częstotliwość, czyli odbieraną przez człowieka wysokość dźwięku.</p>' +
   "          </div>" +
   "          <p>" +
   "            4. Wdychając hel, przez krótki czas nasz głos wydaje się wyższy. Co" +
@@ -142,7 +142,7 @@ var zad15DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad154" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '            <p id="Odp154" class="inactive-chekbox">Dźwięk rozchodzi się szybciej w helu niż w powietrzu, dlatego dla tej semj długości fali uzyskujemy wyższą częstotliwość.</p>' +
+  '            <p id="Odp154" class="inactive-chekbox">Dźwięk rozchodzi się szybciej w helu niż w powietrzu, dlatego dla tej samej długości fali w gazie wynika z rozmiaru narządu mowy uzyskujemy wyższą częstotliwość.</p>' +
   "          </div>" +
   '          <div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +

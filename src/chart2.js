@@ -8,6 +8,7 @@ let g = 9.80665;
 let R = 8.314;
 
 let rho0 = (p0 * M) / (R * T0);
+let kek = "3";
 
 function InitChart2() {
   Chart.pluginService.register({
@@ -50,6 +51,9 @@ function InitChart2() {
     type: "line",
     data: data,
     options: {
+      legend: {
+        display: false,
+      },
       scales: {
         yAxes: [
           {
@@ -58,7 +62,7 @@ function InitChart2() {
             },
             scaleLabel: {
               display: true,
-              labelString: "Gęstość powietrza (kg/m^3)",
+              labelString: "Gęstość powietrza (kg/m" + "\u00B3" + ")",
               fontSize: 13,
             },
           },

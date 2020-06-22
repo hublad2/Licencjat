@@ -11,50 +11,58 @@ var zad7DOM =
   "          <p>" +
   "            Problem 1" +
   "          </p>" +
-  "       <div class='zadanie_film zadanie7_film'>" +
+  "       <figure class='zadanie_film zadanie7_film'>" +
   "          <div id='videoProblem1' class='embeded'></div>" +
-  "        </div>" +
+  "          <figcaption>Źródło: <a href='https://www.youtube.com/watch?v=1Xp_imnO6WE' target='_blank'>5 Fun Physics Phenomena</a></figcaption>" +
+  "        </figure>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad71" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  "       <div id='Odp71' class='zadanie_film inactive-chekbox'>" +
+  "       <figure id='Odp71' class='zadanie_film inactive-chekbox'>" +
   "          <div id='videoExp1' class='embeded'></div>" +
-  "        </div>" +
+  "          <figcaption>Źródło: <a href='https://www.youtube.com/watch?v=jIMihpDmBpY' target='_blank'>Explained: 5 Fun Physics Phenomena</a></figcaption>" +
+  "        </figure>" +
   "          </div>" +
   "          <p>" +
   "            Problem 2" +
   "          </p>" +
-  "       <div class='zadanie_film zadanie7_film'>" +
+  "       <figure class='zadanie_film zadanie7_film'>" +
   "          <div id='videoProblem2' class='embeded'></div>" +
-  "        </div>" +
+  "          <figcaption>Źródło: <a href='https://www.youtube.com/watch?v=1Xp_imnO6WE' target='_blank'>5 Fun Physics Phenomena</a></figcaption>" +
+  "        </figure>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad72" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  "       <div id='Odp72' class='zadanie_film inactive-chekbox'>" +
+  "       <figure id='Odp72' class='zadanie_film inactive-chekbox'>" +
   "          <div id='videoExp2' class='embeded'></div>" +
-  "        </div>" +
+  "          <figcaption>Źródło: <a href='https://www.youtube.com/watch?v=jIMihpDmBpY' target='_blank'>Explained: 5 Fun Physics Phenomena</a></figcaption>" +
+  "        </figure>" +
   "          </div>" +
   "          <p>" +
   "            Problem 3" +
   "          </p>" +
-  "       <div class='zadanie_film zadanie7_film'>" +
+  "       <figure class='zadanie_film zadanie7_film'>" +
   "          <div id='videoProblem3' class='embeded'></div>" +
-  "        </div>" +
+  "          <figcaption>Źródło: <a href='https://www.youtube.com/watch?v=1Xp_imnO6WE' target='_blank'>5 Fun Physics Phenomena</a></figcaption>" +
+  "        </figure>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad73" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  "       <div id='Odp73' class='zadanie_film inactive-chekbox'>" +
+  "       <figure id='Odp73' class='zadanie_film inactive-chekbox'>" +
   "          <div id='videoExp3' class='embeded'></div>" +
-  "        </div>" +
+  "          <figcaption>Źródło: <a href='https://www.youtube.com/watch?v=jIMihpDmBpY' target='_blank'>Explained: 5 Fun Physics Phenomena</a></figcaption>" +
+  "        </figure>" +
   "          </div>" +
   "          <p>" +
   "            Problem 4" +
   "          </p>" +
-  "       <div class='zadanie_film zadanie7_film'>" +
+  "       <figure class='zadanie_film zadanie7_film'>" +
   "          <div id='videoProblem4' class='embeded'></div>" +
-  "        </div>" +
+  "          <figcaption>Źródło: <a href='https://www.youtube.com/watch?v=1Xp_imnO6WE' target='_blank'>5 Fun Physics Phenomena</a></figcaption>" +
+  "        </figure>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad74" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  "       <div id='Odp74' class='zadanie_film inactive-chekbox'>" +
+  "       <figure id='Odp74' class='zadanie_film inactive-chekbox'>" +
   "          <div id='videoExp4' class='embeded'></div>" +
-  "        </div>" +
+  "          <figcaption>Źródło: <a href='https://www.youtube.com/watch?v=jIMihpDmBpY' target='_blank'>Explained: 5 Fun Physics Phenomena</a></figcaption>" +
+  "        </figure>" +
   "          </div>" +
   '<div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +

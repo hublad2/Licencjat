@@ -9,10 +9,11 @@ var zad10DOM =
   "          </p>" +
   '          <div class="zadanie_film zadanie10_film">' +
   '            <div id="video7" class="embeded"></div>' +
+  "          <figcaption>Źródło: <a href='https://www.youtube.com/watch?v=_yEu2R1gYSs' target='_blank'>Monster magnet meets computer...</a></figcaption>" +
   "          </div>" +
   "          <p>" +
-  "            1. Korzystając z dostępnych źródeł dowiedz się podstawowych zasad" +
-  "            działania monitora kineskopowego, następnie spróbuj wytłumaczyć" +
+  "            1. Korzystając z dostępnych źródeł dowiedz się jak działa" +
+  "            monitor kineskopowy, następnie spróbuj wytłumaczyć" +
   "            dlaczego magnes działa w ten sposób na obraz." +
   "          </p>" +
   "          <p>" +
@@ -23,10 +24,10 @@ var zad10DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad101" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '            <p id="Odp101" class="inactive-chekbox">W monitorze kineskopowym, strumień elektronów uderza w element pobudzany do świecenia (luminator). Kierunek strumienia jest kontrolowana przez magnes. Dlatego przybliżając inny, silny magnes do obudowy odchylamy całą wiązkę i elektrony padają w inne miejsca na luminatorze.</p>' +
+  '            <p id="Odp101" class="inactive-chekbox">W monitorze kineskopowym strumień elektronów uderza w element w luminofor i pobudza go do świecenia. Strumień elektronów jest kontrolowana przez magnes. Dlatego, przybliżając inny, silny magnes do obudowy odchylamy całą wiązkę i elektrony padają w inne miejsca na luminatorze.</p>' +
   "          </div>" +
   "          <p>" +
-  "            2. Czy użycie, tak samo silnego, elektromagnesu dałoby identyczny" +
+  "            2. Czy użycie, tak samo silnego elektromagnesu dałoby identyczny" +
   "            efekt?" +
   "            <span" +
   '              ><label for="Zad1021">Tak</label>' +
@@ -51,17 +52,17 @@ var zad10DOM =
   '            <button id="Zad102" class="zadanie-button">Sprawdź</button>' +
   "          </div>" +
   "          <p>" +
-  "            3. Informacje na dysku twardym można uszkodzić przybliżając do niego" +
+  "            3. Informacje na dysku twardym można uszkodzić, przybliżając do niego" +
   "            silny magnes. Poszukaj w internecie wyjaśnienia działania takiego" +
-  "            dysku i wytłumacz dlaczego dane da się uszkodzić w ten sposób." +
+  "            dysku i wytłumacz, dlaczego dane da się uszkodzić w ten sposób." +
   "          </p>" +
   "          <p>" +
   "            Pomóc może ten artykuł:" +
   "            <a" +
   '              href="https://klinikadanych.pl/artykuly/budowa-i-dzialanie-dysku-twardego-jak-dziala-hdd"' +
-  "              >Budowa i działanie dysku twardego - jak działa HDD</a" +
+  "              >Budowa i działanie dysku twardego - jak działa HDD,</a" +
   "            >" +
-  "            szczególnie działy talerze, głowice oraz zapis i odczyt danych." +
+  "            szczególnie działy <i>Talerze</i>, <i>Głowice</i> oraz <i>Zapis i odczyt danych na dysku</i>." +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad103" class="zadanie-button">Przykładowa odpowiedź</button>' +

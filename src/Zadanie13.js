@@ -9,20 +9,21 @@ var zad13DOM =
   "          </p>" +
   "          <ul>" +
   "            <li>" +
-  "              parownika o temperaturze niższej od temperatury otoczenia," +
-  "              pobierającego ciepło z jej wnętrza" +
+  "              parownika pobierającego ciepło z wnętrza lodówki" +
   "            </li>" +
   "            <li>" +
-  "              skraplacza o temperaturze wyższej od temperatury otoczenia," +
-  "              oddającego ciepło do otoczenia" +
+  "              skraplacza oddającego ciepło na zewnątrz lodówki" +
   "            </li>" +
   "            <li>sprężarki sprężającej substancję chłodniczą</li>" +
   "          </ul>" +
+  "<figure class='img-figure'>" +
   "          <img" +
   '            src="./assets/schemat-lodówki.png"' +
   '            alt="Schemat lodówki"' +
   '            class="img-container"' +
   "          />" +
+  "<figcaption>Żródło: <a href='https://bombakaloryczna.pl/dobra-lodowka-ergonomia-konstrukcja-energooszczednosc-czesc-1/' target='_blank'>Bomba kaloryczna</a></figcaption>" +
+  "</figure>" +
   "          <p>" +
   "            1. Chcemy ulepszyć lodówkę, np. poprzez poprawę wymiany ciepła" +
   "            pomiędzy skraplaczem i otoczeniem. Co mogłoby dać zamierzony efekt?" +
@@ -79,11 +80,11 @@ var zad13DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad132" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '            <p id="Odp132" class="inactive-chekbox">Tak, szron może izolować wnętrze zamrażalnika od parownika, co utrudni pobieranie ciepła z wnętrza.</p>' +
+  '            <p id="Odp132" class="inactive-chekbox">Tak, szron może izolować wnętrze zamrażalnika od parownika, co utrudni przepływ ciepła z zamrażalnika do parownika.</p>' +
   "          </div>" +
   "          <p>" +
   "            3. Do lodówki, w której wnętrzu panuje temperatura 5°C wsadzamy" +
-  "            kubek gorącej herbaty o temperaturze 90°C i kubek z colą o" +
+  "            kubek gorącej herbaty o temperaturze 90°C i kubek z sokiem o" +
   "            temperaturze 20°C, w obu kubkach objętość cieczy jest taka sama." +
   "            Po 5 minutach sprawdzamy temperatury napojów. Jakie są możliwe" +
   "            wartości ich temperatur?" +
@@ -98,21 +99,21 @@ var zad13DOM =
   "            ></i>" +
   "          </div>" +
   '          <div class="zadanie1_odp">' +
-  "            <p>b) 80°C i 10°C</p>" +
+  "            <p>b) 80°C i 18°C</p>" +
   '            <input type="checkbox" id="Zad1332" />' +
   "            <i" +
-  '              class="fas fa-times mark-check-red inactive"' +
+  '              class="fas fa-check mark-check-green inactive"' +
   '              aria-hidden="true"' +
-  '              id="red-mark-Zad1332"' +
+  '              id="green-mark-Zad1332"' +
   "            ></i>" +
   "          </div>" +
   '          <div class="zadanie1_odp">' +
   "            <p>c) 80°C i 3°C</p>" +
   '            <input type="checkbox" id="Zad1333" />' +
   "            <i" +
-  '              class="fas fa-check mark-check-green inactive"' +
+  '              class="fas fa-times mark-check-red inactive"' +
   '              aria-hidden="true"' +
-  '              id="green-mark-Zad1333"' +
+  '              id="red-mark-Zad1333"' +
   "            ></i>" +
   "          </div>" +
   '          <div class="zadanie_odpowiedz">' +
