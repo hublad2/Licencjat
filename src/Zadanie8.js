@@ -19,7 +19,7 @@ var zad8DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad81" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '            <p id="Odp81" class="inactive-chekbox">a) Mimo że metale wykorzystywane do budowy statków mają gęstość większą od gęstości wody, to przez ich kształt obejmują także wiele przestrzeni wypełnionych powietrzem. Średnia gęstość takiej konstrukcji jest mniejsza od gęstości wody. <br> b) Tak. Aby to osiągnąć musimy, podobnie jak w przypadku statku, mieć dużo przestrzeni wypełnionej gazem lżejszym od powietrza np. wodorem. Konstrukcje takie to np. balony, sterowce.</p>' +
+  '            <p id="Odp81" class="inactive-chekbox">a) Mimo że metale wykorzystywane do budowy statków mają gęstość większą od gęstości wody, to przez ich kształt obejmują także wiele przestrzeni wypełnionych powietrzem. Średnia gęstość takiej konstrukcji jest mniejsza od gęstości wody. <br></br> b) Tak. Aby to osiągnąć musimy, podobnie jak w przypadku statku, mieć dużo przestrzeni wypełnionej gazem lżejszym od powietrza np. wodorem. Konstrukcje takie to np. balony, sterowce.</p>' +
   "          </div>" +
   "          <p>" +
   "            2. Łodzie podwodne mogą regulować swoje zanurzenie, poprzez" +

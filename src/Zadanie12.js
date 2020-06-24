@@ -53,7 +53,7 @@ var zad12DOM =
   "          </div>" +
   "          <p>" +
   "            2. Na wykresie Słońce znajduje się w centrum, z mocą promieniowania" +
-  "            równą 1, a widmo jest sklasyfikoane jako żółte. Skoro obserwowany kolor Słońca jest żółty," +
+  "            równą 1, a widmo jest sklasyfikowane jako żółte. Skoro obserwowany kolor Słońca jest żółty," +
   "            to dlaczego obserwujemy różne kolory, przepuszczając światło słoneczne przez pryzmat?" +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +

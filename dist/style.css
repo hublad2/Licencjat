@@ -16,6 +16,38 @@ body {
   margin: 0;
 }
 
+/* Overlay Explanation */
+.overlay-explanation {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  z-index: 2;
+}
+
+.overlay-explanation.open {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.overlay-inner {
+  background: white;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 2px;
+}
+
+.close {
+  float: right;
+}
+
 .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -104,8 +136,8 @@ body {
   display: grid;
   -ms-grid-columns: minmax(200px, 700px);
       grid-template-columns: minmax(200px, 700px);
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+  -ms-grid-rows: 1fr auto;
+      grid-template-rows: 1fr auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -440,6 +472,7 @@ footer {
   display: none;
 }
 
+/* Buttons */
 .zadanie-button {
   padding: 0.7em 1.4em;
   border-radius: 0.15em;
@@ -458,6 +491,11 @@ footer {
   top: 0.1em;
 }
 
+.inline-button {
+  display: inline;
+}
+
+/* Charts */
 .chart-container {
   max-width: 80vw;
 }

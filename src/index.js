@@ -43,6 +43,16 @@ firebase.initializeApp(firebaseConfig);
 
 const container = document.querySelector(".container");
 const spisZadan = document.querySelector("#spis-zadan");
+const overlay = document.querySelector(".overlay-explanation");
+const overlayClose = overlay.querySelector(".close");
+const explanation = document.querySelector("#explanation");
+
+explanation.addEventListener("click", () => {
+  if (!overlay.classList.contains("open")) overlay.classList.add("open");
+  console.log(overlayClose);
+});
+
+overlayClose.addEventListener("click", () => overlay.classList.remove("open"));
 
 let spisZadanActive = true;
 let currentProblem = 0;
@@ -50,15 +60,12 @@ let currentProblem = 0;
 let spisZadanDOM =
   '<div class="wstep">' +
   "        <p>" +
-  "          Zadania na stronie są przeznaczone do rozwiązywania wraz z" +
-  "          nauczycielem lub samodzielnie, nie zawierają zadań obliczeniowych. Skupiają się na" +
-  "          rozwijaniu intuicji fizycznej, rozumieniu zjawisk oraz analizie" +
-  "          danych." +
+  "          Zadania na stronie są przeznaczone do rozwiązywania wraz z nauczycielem lub samodzielnie. Skupiają się na rozwijaniu intuicji fizycznej, rozumieniu zjawisk oraz analizie danych. Część pytań została sformułowana tak, aby zawierały więcej niż jedną poprawną odpowiedź, dlatego pod pytaniem zamiast odpowiedzi znajduje się przykładowa, najbardziej oczywista odpowiedź. Zachęcam jednak do, o ile to możliwe, próby wyjaśnienia zjawiska w inny sposób i omówienia tego rozwiązania z nauczycielem." +
   "        </p>" +
   "        <p>" +
   "          Zadania są odpowiednie dla uczniów 1 klasy liceum," +
   "          ale mogą być również wykorzystywane przez uczniów młodszych" +
-  "          np. na kółkach przedmiotowych." +
+  "          np. na kółkach przedmiotowych. Zestaw nie zawiera zadań obliczeniowych." +
   "        </p>" +
   "      </div>" +
   '<div class="list-zadania">' +

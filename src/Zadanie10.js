@@ -19,12 +19,12 @@ var zad10DOM =
   "          <p>" +
   "            Możesz skorzystać np. z tego artykułu:" +
   '            <a href="https://pl.wikipedia.org/wiki/Monitor_kineskopowy"' +
-  "              >Monitor kineskopowy</a" +
+  "              target='_blank'>Monitor kineskopowy</a" +
   "            >" +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad101" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '            <p id="Odp101" class="inactive-chekbox">W monitorze kineskopowym strumień elektronów uderza w element w luminofor i pobudza go do świecenia. Strumień elektronów jest kontrolowana przez magnes. Dlatego, przybliżając inny, silny magnes do obudowy odchylamy całą wiązkę i elektrony padają w inne miejsca na luminatorze.</p>' +
+  '            <p id="Odp101" class="inactive-chekbox">W monitorze kineskopowym strumień elektronów uderza w luminofor i pobudza go do świecenia. Strumień elektronów jest kontrolowana przez magnes. Dlatego, przybliżając inny, silny magnes do obudowy odchylamy całą wiązkę i elektrony padają w inne miejsca na luminoforze.</p>' +
   "          </div>" +
   "          <p>" +
   "            2. Czy użycie, tak samo silnego elektromagnesu dałoby identyczny" +

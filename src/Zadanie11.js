@@ -20,7 +20,7 @@ var zad11DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad111" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '            <p id="Odp111" class="inactive-chekbox">Gdyby prędkość światła była mniejsza, eksperyment Galileusza mógłby się powieść. Obecnie wiemy, że światło porusza się z prędkościa 300 tysięcy kilometrów na sekundę, Galileusz potrzebował dużo dokładniejszych narzędzi do pomiaru czasu i rejestrowania odsłonięcia przesłony. Prędkość światła jest bardzo duża a Galileusz nie dysponował </p>' +
+  '            <p id="Odp111" class="inactive-chekbox">Światło porusza się z prędkościa 300 tysięcy kilometrów na sekundę, Galileusz potrzebował dużo dokładniejszych narzędzi do pomiaru czasu i rejestrowania odsłonięcia przesłony. Gdyby prędkość światła była mniejsza, eksperyment Galileusza, mógłby się powieść.</p>' +
   "          </div>" +
   "          <p>" +
   "            2. Załóżmy, że chcemy przeprowadzić eksperyment Galileusza obecnie," +
@@ -29,7 +29,7 @@ var zad11DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad112" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '            <p id="Odp112" class="inactive-chekbox">Obecnie można by użyć dokładniejszych metod pomiaru czasu, laserów zamiast latarni, detektora światła zamiast oczu i lustra zamiast osoby odsłaniającej przesłonę. Dzięki temu musielibyśmy zmierzyć jedynie odległość do i od lustra oraz czas od włączenia lasera do zarejestrowania go w detektorze.</p>' +
+  '            <p id="Odp112" class="inactive-chekbox">Obecnie moglibyśmy użyć dokładniejszych metod pomiaru czasu, laserów zamiast latarni, detektora światła zamiast oczu i lustra zamiast osoby odsłaniającej przesłonę. Dzięki temu musielibyśmy zmierzyć jedynie odległość do i od lustra oraz czas od włączenia lasera do zarejestrowania go w detektorze.</p>' +
   "          </div>" +
   '<div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +
