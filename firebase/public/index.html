@@ -22,12 +22,63 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="overlay-explanation">
+      <div class="overlay-inner">
+        <h2>Zadania zamknięte</h2>
+        <p>
+          Po wypełnieniu zadania zamkniętego, kliknij przycisk
+          <button class="zadanie-button">Sprawdź</button> aby dowiedzieć się czy
+          twoje odpowiedzi są poprawne.
+        </p>
+        <p>
+          W części zadań zamkniętych możesz wybrać więcej niż jedną odpowiedź. W
+          takim przypadku zielony znaczek pojawi się przy każdym poprawnym
+          wyborze.
+        </p>
+        <p>Na przykład</p>
+        <ul>
+          <li>
+            Odpowiedź 1 <input type="checkbox" checked /><i
+              class="fas fa-check mark-check-green"
+            ></i>
+          </li>
+          <li>
+            Odpowiedź 2 <input type="checkbox" checked /><i
+              class="fas fa-times mark-check-red"
+            ></i>
+          </li>
+          <li>
+            Odpowiedź 3 <input type="checkbox" /><i
+              class="fas fa-check mark-check-green"
+            ></i>
+          </li>
+        </ul>
+        <p>
+          Odpowiedż 1 była prawdą dlatego po zaznaczeniu jej pojawia się zielony
+          znaczek. Odpowiedź 2 była błędna dlatego zaznaczenie daje czerwony
+          znaczek. Odpowiedź 3 również była błędna, ale nie została zaznaczona,
+          dlatego pojawia się zielony znaczek.
+        </p>
+        <h2>Zadania otwarte</h2>
+        <p>
+          Na zadania otwarte nie odpowiadasz na stronie. Pod zadaniem znajduje
+          się tylko przykładowa odpowiedź, którą możesz zobaczyć po kliknięciu
+          przycisku
+          <button class="zadanie-button">
+            Przykładowa odpowiedź
+          </button>
+        </p>
+        <button class="close zadanie-button">Zamknij</button>
+      </div>
+    </div>
     <nav class="navigation">
       <span class="logo">Zadania nieobliczeniowe z fizyki</span>
       <ul class="menu">
         <li class="menu_item">
           <button class="menu-spis-button" id="spis-zadan">Spis zadań</button>
-          <button class="menu-spis-button">Wyjaśnienie interfejsu</button>
+          <button class="menu-spis-button" id="explanation">
+            Wyjaśnienie interfejsu
+          </button>
         </li>
       </ul>
     </nav>

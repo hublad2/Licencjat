@@ -66,7 +66,7 @@ var zad10DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad103" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '            <p id="Odp103" class="inactive-chekbox">lorem 100</p>' +
+  '            <p id="Odp103" class="inactive-chekbox">Pole magnetyczne może zmienić ustawienie domen magnetycznych, w materiale ferromagnetycznym, wewnątrz dysku.</p>' +
   "          </div>" +
   '<div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +
