@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Roboto mono", monospace, sans-serif;
   padding: 0;
@@ -26,12 +31,17 @@ body {
   left: 0;
   display: none;
   z-index: 2;
+
+  @media (max-width: 700px) {
+    font-size: 14px;
+  }
 }
 
 .overlay-explanation.open {
   display: grid;
   align-items: center;
   justify-items: center;
+  overflow-y: scroll;
 }
 
 .overlay-inner {
@@ -39,6 +49,14 @@ body {
   max-width: 800px;
   padding: 20px;
   border-radius: 2px;
+
+  ul {
+    padding-left: 20px;
+  }
+
+  button {
+    margin: 5px 0;
+  }
 }
 
 .close {
@@ -53,7 +71,7 @@ body {
   padding: 30px 50px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .navigation {
     padding: 30px 20px;
   }
@@ -67,6 +85,7 @@ body {
 @media (max-width: 500px) {
   .logo {
     font-size: 16px;
+    margin-right: 20px;
   }
 }
 
@@ -177,24 +196,34 @@ body {
 /* Footer */
 
 footer {
-  position: relative;
-  display: grid;
-  bottom: 0;
-  padding: 50px 0;
-  grid-template-columns: 1fr;
-  gap: 20px;
-  text-align: center;
-  justify-content: center;
-}
-
-@media (min-width: 550px) {
-  footer {
-    grid-template-columns: auto auto;
+  margin-top: 50px;
+  @media (max-width: 800px) {
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
-
-  footer span:nth-of-type(1) {
-    border-right: 1px solid gray;
-    padding-right: 20px;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+    li {
+      border-right: 1px solid gray;
+      padding: 4px 20px;
+    }
+    li:last-of-type {
+      border: none;
+    }
+    @media (max-width: 800px) {
+      display: grid;
+      text-align: center;
+      grid-template-rows: auto auto auto;
+      padding: 0;
+      font-size: 15px;
+      li {
+        border: none;
+      }
+    }
   }
 }
 
@@ -204,6 +233,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
 }
 
 .img-figure figcaption {
@@ -217,7 +247,18 @@ footer {
   grid-template-columns: 1fr;
   justify-items: center;
   align-items: center;
-  width: 90%;
+  width: 100%;
+  grid-template-rows: 200px auto;
+
+  @media (max-width: 700px) {
+    grid-template-rows: 120px auto;
+  }
+
+  &_hero {
+    @media (max-width: 700px) {
+      font-size: 13px;
+    }
+  }
 
   &_odpowiedz {
     margin-bottom: 30px;
@@ -252,16 +293,16 @@ footer {
     padding: 10px;
   }
 
-  @media (min-width: 1200px) {
-    &_tresc {
-      margin: 0 10%;
+  &_tresc {
+    max-width: 1200px;
+
+    @media (max-width: 500px) {
+      font-size: 14px;
     }
   }
 }
 
 .zadanie1 {
-  grid-template-rows: 200px auto;
-
   @media (max-width: 600px) {
     grid-template-rows: auto auto auto;
 
@@ -272,12 +313,9 @@ footer {
 }
 
 .zadanie2 {
-  grid-template-rows: 200px auto;
 }
 
 .zadanie3 {
-  grid-template-rows: 150px auto auto;
-
   &_tabela {
     margin-bottom: 50px;
   }
@@ -290,8 +328,6 @@ footer {
 }
 
 .zadanie4 {
-  grid-template-rows: 200px auto;
-
   &_tabela {
     margin-bottom: 50px;
   }
@@ -301,11 +337,13 @@ footer {
       font-size: 12px;
     }
   }
+
+  input[type="number"] {
+    margin: 5px 0;
+  }
 }
 
 .zadanie5 {
-  grid-template-rows: 200px auto;
-
   &_tabela {
     margin-bottom: 0px;
   }
@@ -318,44 +356,33 @@ footer {
 }
 
 .zadanie6 {
-  grid-template-rows: 200px auto;
 }
 
 .zadanie7 {
-  grid-template-rows: 200px auto;
 }
 
 .zadanie8 {
-  grid-template-rows: 200px auto;
 }
 
 .zadanie9 {
-  grid-template-rows: 200px auto;
 }
 
 .zadanie10 {
-  grid-template-rows: 200px auto;
 }
 
 .zadanie11 {
-  grid-template-rows: 200px auto;
 }
 
 .zadanie12 {
-  grid-template-rows: 200px auto;
 }
 
 .zadanie13 {
-  grid-template-rows: 200px auto;
 }
 
 .zadanie14 {
-  grid-template-rows: 200px auto;
 }
 
 .zadanie15 {
-  grid-template-rows: 200px auto;
-
   &_tabela {
     display: flex;
     justify-content: center;
@@ -387,11 +414,11 @@ footer {
 }
 
 .inactive {
-  visibility: hidden;
+  visibility: hidden !important;
 }
 
 .inactive-chekbox {
-  display: none;
+  display: none !important;
 }
 
 /* Buttons */
@@ -407,6 +434,10 @@ footer {
   font-family: "Roboto", sans-serif;
   text-align: center;
   position: relative;
+
+  @media (max-width: 500px) {
+    font-size: 12px;
+  }
 }
 
 .zadanie-button:active {
@@ -420,12 +451,17 @@ footer {
 /* Charts */
 
 .chart-container {
-  max-width: 80vw;
+  max-width: 100vw;
+  height: 500px;
 }
 
 @media (max-width: 800px) {
   .chart-container {
-    width: 95vw;
+    height: 500px;
+  }
+
+  .chart-container canvas {
+    font-size: 12px;
   }
 }
 
@@ -445,8 +481,7 @@ footer {
 
 @media (max-width: 800px) {
   .img-container {
-    display: inline;
-    margin: 0 auto;
+    max-width: 100%;
   }
 }
 

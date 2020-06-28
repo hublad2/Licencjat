@@ -63,7 +63,7 @@ var zad14DOM =
   "    </p>" +
   '    <div class="zadanie_odpowiedz">' +
   '      <button id="Zad143" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '      <p id="Odp143" class="inactive-chekbox">Tak, ponieważ cząsteczki wody i liści herbaty poruszałyby się szybciej w wyższej temperaturze, co prowadziłoby do szybszego uwalniania substancji chemicznych z liści herbaty.</p>' +
+  '      <p id="Odp143" class="inactive-chekbox">Tak, ponieważ cząsteczki wody i liści herbaty miałyby większą, średnią energię kinetyczną w wyższej temperaturze, co prowadziłoby do szybszego uwalniania substancji chemicznych z liści herbaty.</p>' +
   "    </div>" +
   '    <div class="nav-buttons">' +
   '      <button class="zadanie-button" id="previousButton">' +

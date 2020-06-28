@@ -57,7 +57,7 @@ var zad15DOM =
   "          <p>" +
   "            2. Następnie zaczęto badać, czy temperatura powietrza ma wpływ na" +
   "            prędkość rozchodzenia się dźwięku. Wyniki pomiarów przedstawiono w" +
-  "            tabeli. Niepewność pomiaru prędkości był równa 0,2 m/s." +
+  "            tabeli. Niepewność pomiaru prędkości była równa 0,2 m/s." +
   "          </p>" +
   '          <div class="zadanie_tabela zadanie15_tabela">' +
   "            <table>" +
@@ -104,7 +104,7 @@ var zad15DOM =
   "            </table>" +
   "          </div>" +
   "          <p>" +
-  "            Na podstawie tabelki można stwierdzić, że prędkość dźwięku" +
+  "            Na podstawie tabeli można stwierdzić, że prędkość dźwięku" +
   "            <span" +
   '              ><label for="Zad821">rośnie</label>' +
   '              <input type="checkbox" id="Zad1521" /></span' +
@@ -137,12 +137,12 @@ var zad15DOM =
   '            <p id="Odp153" class="inactive-chekbox">Tak, wraz ze zmianą temperatury zmienia się prędkość dźwięku w powietrzu, co wpłynie też na jego częstotliwość, czyli odbieraną przez człowieka wysokość dźwięku.</p>' +
   "          </div>" +
   "          <p>" +
-  "            4. Wdychając hel, przez krótki czas nasz głos wydaje się wyższy. Co" +
-  "            może być tego przyczyną?" +
+  "            4. Jesteś na festynie i twój kolega wygrał balon z helem. Zaczerpnął gazu z balona do płuc i zaczął coś do Ciebie mówić. Zdziwiłaś/eś się, że jego głos stał się wyraźnie wyższy. " +
+  "           Co mogło być tego przyczyną?" +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad154" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '            <p id="Odp154" class="inactive-chekbox">Dźwięk rozchodzi się szybciej w helu niż w powietrzu, dlatego dla tej samej długości fali w gazie wynika z rozmiaru narządu mowy uzyskujemy wyższą częstotliwość.</p>' +
+  '            <p id="Odp154" class="inactive-chekbox">Dźwięk rozchodzi się szybciej w helu niż w powietrzu, dlatego dla tej samej długości fali w gazie – wynikającej z rozmiaru narządu mowy – uzyskujemy wyższą częstotliwość.</p>' +
   "          </div>" +
   '          <div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +

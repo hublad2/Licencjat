@@ -23,6 +23,7 @@ import {
   InitMultipleAnserwsFromThree,
 } from "./InitType1";
 import { onYouTubePlayerAPIReady } from "./videoNew";
+import { onYouTubePlayerAPIReady2 } from "./videoAllowSubs";
 import { InitChart } from "./charts";
 import { InitChart2 } from "./chart2";
 import * as firebase from "firebase/app";
@@ -65,7 +66,7 @@ let spisZadanDOM =
   "        <p>" +
   "          Zadania są odpowiednie dla uczniów 1 klasy liceum," +
   "          ale mogą być również wykorzystywane przez uczniów młodszych" +
-  "          np. na kółkach przedmiotowych. Zestaw nie zawiera zadań obliczeniowych." +
+  "          na przykład, na kółkach przedmiotowych. Zestaw nie zawiera zadań obliczeniowych." +
   "        </p>" +
   "      </div>" +
   '<div class="list-zadania">' +
@@ -174,13 +175,20 @@ function initProblem(problemId) {
       container.insertAdjacentHTML("beforeend", getHTMLZad1());
       initNextButton();
       onYouTubePlayerAPIReady("p5m4TCN5upQ", 1, 21, "video1");
-      initListenersType1(
+      const Zad12 = document.querySelector("#Zad12");
+      const Odp12 = document.querySelector("#Odp12");
+      initOnlyOpenAnswers([Zad12], [Odp12]);
+      InitMultipleAnserwsFromThree(
         "#Zad11",
         "#Zad111",
         "#Zad112",
         "#Zad113",
-        "#Zad12",
-        "#Odp12"
+        "#green-mark-Zad111",
+        "#red-mark-Zad111",
+        "#green-mark-Zad112",
+        "#red-mark-Zad112",
+        "#green-mark-Zad113",
+        "#red-mark-Zad113"
       );
       appendScripts();
       break;
@@ -269,11 +277,9 @@ function initProblem(problemId) {
       container.insertAdjacentHTML("beforeend", getHTMLZad5());
       initPreviousButton();
       initNextButton();
-      const Zad51 = document.querySelector("#Zad51");
       const Zad53 = document.querySelector("#Zad53");
-      const Odp51 = document.querySelector("#Odp51");
       const Odp53 = document.querySelector("#Odp53");
-      initOnlyOpenAnswers([Zad51, Zad53], [Odp51, Odp53]);
+      initOnlyOpenAnswers([Zad53], [Odp53]);
       InitChooseOneFromThree(
         "#Zad521",
         "#Zad522",
@@ -340,14 +346,14 @@ function initProblem(problemId) {
         [Zad71, Zad72, Zad73, Zad74],
         [Odp71, Odp72, Odp73, Odp74]
       );
-      onYouTubePlayerAPIReady("1Xp_imnO6WE", 1, 64, "videoProblem1");
-      onYouTubePlayerAPIReady("jIMihpDmBpY", 106, 140, "videoExp1");
-      onYouTubePlayerAPIReady("1Xp_imnO6WE", 109, 171, "videoProblem2");
-      onYouTubePlayerAPIReady("jIMihpDmBpY", 228, 310, "videoExp2");
-      onYouTubePlayerAPIReady("1Xp_imnO6WE", 173, 192, "videoProblem3");
-      onYouTubePlayerAPIReady("jIMihpDmBpY", 12, 104, "videoExp3");
-      onYouTubePlayerAPIReady("1Xp_imnO6WE", 195, 239, "videoProblem4");
-      onYouTubePlayerAPIReady("jIMihpDmBpY", 311, 353, "videoExp4");
+      onYouTubePlayerAPIReady2("1Xp_imnO6WE", 1, 64, "videoProblem1");
+      onYouTubePlayerAPIReady2("jIMihpDmBpY", 106, 140, "videoExp1");
+      onYouTubePlayerAPIReady2("1Xp_imnO6WE", 109, 171, "videoProblem2");
+      onYouTubePlayerAPIReady2("jIMihpDmBpY", 228, 310, "videoExp2");
+      onYouTubePlayerAPIReady2("1Xp_imnO6WE", 173, 192, "videoProblem3");
+      onYouTubePlayerAPIReady2("jIMihpDmBpY", 12, 104, "videoExp3");
+      onYouTubePlayerAPIReady2("1Xp_imnO6WE", 195, 239, "videoProblem4");
+      onYouTubePlayerAPIReady2("jIMihpDmBpY", 311, 353, "videoExp4");
       appendScripts();
       break;
 
@@ -471,7 +477,13 @@ function initProblem(problemId) {
         "#Zad131",
         "#Zad1311",
         "#Zad1312",
-        "#Zad1313"
+        "#Zad1313",
+        "#green-mark-Zad1311",
+        "#red-mark-Zad1311",
+        "#green-mark-Zad1312",
+        "#red-mark-Zad1312",
+        "#green-mark-Zad1313",
+        "#red-mark-Zad1313"
       );
       initOnlyOpenAnswers([Zad132], [Odp132]);
       InitChooseOneFromThree(

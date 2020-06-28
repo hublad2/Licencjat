@@ -54,15 +54,27 @@ function InitMultipleAnserwsFromThree(
   checkButtonId,
   checkBox1Id,
   checkBox2Id,
-  checkBox3Id
+  checkBox3Id,
+  greenMark1Id,
+  redMark1Id,
+  greenMark2Id,
+  redMark2Id,
+  greenMark3Id,
+  redMark3Id
 ) {
   const checkButton = document.querySelector(checkButtonId);
   const checkbox1 = document.querySelector(checkBox1Id);
+  const greenMark1 = document.querySelector(greenMark1Id);
+  const redMark1 = document.querySelector(redMark1Id);
   const checkbox2 = document.querySelector(checkBox2Id);
+  const greenMark2 = document.querySelector(greenMark2Id);
+  const redMark2 = document.querySelector(redMark2Id);
   const checkbox3 = document.querySelector(checkBox3Id);
+  const greenMark3 = document.querySelector(greenMark3Id);
+  const redMark3 = document.querySelector(redMark3Id);
 
-  const greenMarks = document.querySelectorAll(".mark-check-green");
-  const redMarks = document.querySelectorAll(".mark-check-red");
+  const greenMarks = [greenMark1, greenMark2, greenMark3];
+  const redMarks = [redMark1, redMark2, redMark3];
 
   checkButton.addEventListener("click", () => {
     greenMarks.forEach((greenMark) => {

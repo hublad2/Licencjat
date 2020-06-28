@@ -23,7 +23,7 @@ function InitChart() {
 
   let ctx = document.getElementById("myChart");
   var data = {
-    labels: [0, 500, 1000, 1500, 2000, 2500],
+    labels: [0, 500, 1000, 1500, 2000, 2500, 3000],
     datasets: [
       {
         label: "Natężenie pola grawitacyjnego Ziemi",
@@ -33,6 +33,7 @@ function InitChart() {
         borderColor: "rgba(75, 192, 192, 1)",
         data: [],
         fill: false,
+        cubicInterpolationMode: "monotone",
       },
       {
         label: "Natężenie pola grawitacyjnego Wenus",
@@ -42,6 +43,7 @@ function InitChart() {
         borderColor: "rgba(150, 192, 20, 1)",
         data: [],
         fill: false,
+        cubicInterpolationMode: "monotone",
       },
     ],
   };
@@ -50,6 +52,7 @@ function InitChart() {
     type: "line",
     data: data,
     options: {
+      maintainAspectRatio: false,
       scales: {
         yAxes: [
           {

@@ -33,11 +33,11 @@ var zad13DOM =
   '            <input type="checkbox" id="Zad1311" />' +
   "            <i" +
   '              class="fas fa-check mark-check-green inactive"' +
-  '              aria-hidden="true"' +
+  '              aria-hidden="true" id="green-mark-Zad1311"' +
   "            ></i>" +
   "            <i" +
   '              class="fas fa-times mark-check-red inactive"' +
-  '              aria-hidden="true"' +
+  '              aria-hidden="true" id="red-mark-Zad1311"' +
   "            ></i>" +
   "          </div>" +
   '          <div class="zadanie1_odp">' +
@@ -47,11 +47,11 @@ var zad13DOM =
   '            <input type="checkbox" id="Zad1312" />' +
   "            <i" +
   '              class="fas fa-check mark-check-green inactive"' +
-  '              aria-hidden="true"' +
+  '              aria-hidden="true" id="green-mark-Zad1312"' +
   "            ></i>" +
   "            <i" +
   '              class="fas fa-times mark-check-red inactive"' +
-  '              aria-hidden="true"' +
+  '              aria-hidden="true" id="red-mark-Zad1312"' +
   "            ></i>" +
   "          </div>" +
   '          <div class="zadanie1_odp">' +
@@ -59,11 +59,11 @@ var zad13DOM =
   '            <input type="checkbox" id="Zad1313" />' +
   "            <i" +
   '              class="fas fa-check mark-check-green inactive"' +
-  '              aria-hidden="true"' +
+  '              aria-hidden="true" id="green-mark-Zad1313"' +
   "            ></i>" +
   "            <i" +
   '              class="fas fa-times mark-check-red inactive"' +
-  '              aria-hidden="true"' +
+  '              aria-hidden="true" id="red-mark-Zad1313"' +
   "            ></i>" +
   "          </div>" +
   '          <div class="zadanie_odpowiedz">' +

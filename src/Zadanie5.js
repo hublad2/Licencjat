@@ -5,16 +5,11 @@ var zad5DOM =
   "        </div>" +
   '        <div class="zadanie_tresc zadanie5_tresc">' +
   "          <p>" +
-  "            Samochód elektryczny został umieszczony na stabilnej, kołowej" +
+  "            Samochód elektryczny został umieszczony na kołowej" +
   "            orbicie okołoziemskiej, w okolicach orbity Księżyca." +
   "          </p>" +
-  "          <p>1. Narysuj siły działające na samochód.</p>" +
-  '          <div class="zadanie_odpowiedz">' +
-  '            <button id="Zad51" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '            <p id="Odp51" class="inactive-chekbox">Odpowiedź -</p>' +
-  "          </div>" +
   "          <p>" +
-  "            2. Spójrz na załączoną tabelkę i wybierz możliwą wartość" +
+  "            1. Spójrz na załączoną tabelkę i wybierz możliwą wartość" +
   "            prędkości samochodu na orbicie." +
   "          </p>" +
   '          <div class="zadanie_tabela zadanie5_tabela">' +
@@ -72,13 +67,13 @@ var zad5DOM =
   '            <button id="Zad52" class="zadanie-button">Sprawdź</button>' +
   "          </div>" +
   "          <p>" +
-  "            3. Czy włączenie silnika i kręcenie kołami pomoże nam wrócić" +
+  "            2. Czy włączenie silnika i kręcenie kołami pomoże nam wrócić" +
   "            na Ziemię? Zakładamy, że samochód nie generuje gazów" +
   "            wylotowych." +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad53" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '            <p id="Odp53" class="inactive-chekbox">Aby samochód zmienił orbitę, musiałby się od czegoś "odepchnąć". Rakiety zmieniają swoją prędkość, "odpychając" się od gazów wylotowych, czyli wyrzucając je za siebie. W przypadku samochodu elektrycznego nie mamy żadnej masy, którą można by odrzucić i zmienić pęd samochodu.</p>' +
+  '            <p id="Odp53" class="inactive-chekbox">Aby samochód zmienił orbitę, musiałby się od czegoś "odepchnąć". Rakiety zmieniają swoją prędkość, "odpychając" się od gazów wylotowych, czyli wyrzucając je za siebie. W tym przypadku samochód nie odrzuca żadnej masy, więc nie zmienia pędu.</p>' +
   "          </div>" +
   '<div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +

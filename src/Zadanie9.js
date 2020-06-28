@@ -10,7 +10,7 @@ var zad9DOM =
   "          <figcaption>Źródło: <a href='https://www.youtube.com/watch?v=UKbcBKNu4WE' target='_blank'>Simple Physics Demos</a></figcaption>" +
   "          </figure>" +
   "          <p>" +
-  "            1. Duża piłka upuszczona razem z małą odbiła się na" +
+  "            1. Duża piłka upuszczona razem z małą odbije się na" +
   "            <span" +
   '              ><label for="Zad911">większą</label>' +
   '              <input type="checkbox" id="Zad911" /></span' +
@@ -29,13 +29,13 @@ var zad9DOM =
   '                id="red-mark-Zad91"' +
   "              ></i" +
   "            ></span>" +
-  "            wysokość w stosunku do sytuacji, gdy odbijała się sama, upuszczona z takiej samej wysokości." +
+  "            wysokość w stosunku do sytuacji, gdyby odbijała się sama, upuszczona z takiej samej wysokości." +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad91" class="zadanie-button">Sprawdź</button>' +
   "          </div>" +
   "          <p>" +
-  "            2. W jaki sposób można wytłumaczyć wzrost wysokości na jaką wznosi" +
+  "            2. W jaki sposób można wytłumaczyć wzrost wysokości, na jaką wznosi" +
   "            się mała piłka?" +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +

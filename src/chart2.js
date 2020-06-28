@@ -43,6 +43,7 @@ function InitChart2() {
         borderColor: "rgba(75, 192, 192, 1)",
         data: [],
         fill: false,
+        cubicInterpolationMode: "monotone",
       },
     ],
   };
@@ -51,6 +52,7 @@ function InitChart2() {
     type: "line",
     data: data,
     options: {
+      maintainAspectRatio: false,
       legend: {
         display: false,
       },

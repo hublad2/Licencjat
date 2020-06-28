@@ -11,11 +11,11 @@ var zad8DOM =
   "          <p>" +
   "            a) Skoro na wodzie unoszą się ciała o gęstości mniejszej od gęstości" +
   "            wody, to w jaki sposób można wytłumaczyć unoszenie się statków na" +
-  "            jej powierzchni." +
+  "            jej powierzchni?" +
   "          </p>" +
   "          <p>" +
-  "            b) Czy podobnie jak w przypadku statków na wodzie, da się zbudować maszynę" +
-  "            unoszącą się w powietrzu dzięki sile wyporu?" +
+  "            b) Czy podobnie jak w przypadku statków na wodzie, da się zbudować obiekt" +
+  "            unoszący się w powietrzu dzięki sile wyporu?" +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad81" class="zadanie-button">Przykładowa odpowiedź</button>' +

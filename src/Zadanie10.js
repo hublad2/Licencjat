@@ -5,15 +5,15 @@ var zad10DOM =
   "        </div>" +
   '        <div class="zadanie_tresc zadanie10_tresc">' +
   "          <p>" +
-  "            Przyjrzyj się co dzieje się na ekranie telewizora." +
+  "            Przyjrzyj się, co dzieje się na ekranie telewizora." +
   "          </p>" +
   '          <div class="zadanie_film zadanie10_film">' +
   '            <div id="video7" class="embeded"></div>' +
   "          <figcaption>Źródło: <a href='https://www.youtube.com/watch?v=_yEu2R1gYSs' target='_blank'>Monster magnet meets computer...</a></figcaption>" +
   "          </div>" +
   "          <p>" +
-  "            1. Korzystając z dostępnych źródeł dowiedz się jak działa" +
-  "            monitor kineskopowy, następnie spróbuj wytłumaczyć" +
+  "            1. Korzystając z dostępnych źródeł, dowiedz się, jak działa" +
+  "            monitor kineskopowy, następnie spróbuj wytłumaczyć," +
   "            dlaczego magnes działa w ten sposób na obraz." +
   "          </p>" +
   "          <p>" +
@@ -24,10 +24,10 @@ var zad10DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad101" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '            <p id="Odp101" class="inactive-chekbox">W monitorze kineskopowym strumień elektronów uderza w luminofor i pobudza go do świecenia. Strumień elektronów jest kontrolowana przez magnes. Dlatego, przybliżając inny, silny magnes do obudowy odchylamy całą wiązkę i elektrony padają w inne miejsca na luminoforze.</p>' +
+  '            <p id="Odp101" class="inactive-chekbox">W monitorze kineskopowym strumień elektronów uderza w luminofor i pobudza go do świecenia. Strumień elektronów jest kontrolowany przez magnes. Dlatego, przybliżając inny, silny magnes do obudowy, odchylamy całą wiązkę i elektrony padają w inne miejsca na luminoforze.</p>' +
   "          </div>" +
   "          <p>" +
-  "            2. Czy użycie, tak samo silnego elektromagnesu dałoby identyczny" +
+  "            2. Czy użycie tak samo silnego elektromagnesu dałoby identyczny" +
   "            efekt?" +
   "            <span" +
   '              ><label for="Zad1021">Tak</label>' +
@@ -66,7 +66,7 @@ var zad10DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad103" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '            <p id="Odp103" class="inactive-chekbox">Pole magnetyczne może zmienić ustawienie domen magnetycznych, w materiale ferromagnetycznym, wewnątrz dysku.</p>' +
+  '            <p id="Odp103" class="inactive-chekbox">Pole magnetyczne może zmienić ustawienie domen magnetycznych w materiale ferromagnetycznym, wewnątrz dysku.</p>' +
   "          </div>" +
   '<div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +

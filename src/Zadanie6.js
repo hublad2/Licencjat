@@ -13,7 +13,7 @@ var zad6DOM =
   "          <figcaption>Źródło: <a href='https://www.youtube.com/watch?v=yVkdfJ9PkRQ' target='_blank'>Pendulum Waves</a></figcaption>" +
   "          </figure>" +
   "          <p>" +
-  "            Wahadło z przodu ma" +
+  "            Wahadło z przodu (najbliższe do nas) ma" +
   "            <span" +
   '              ><label for="Zad611">dłuższy</label>' +
   '              <input type="checkbox" id="Zad611" /></span' +
@@ -67,11 +67,11 @@ var zad6DOM =
   "            a) Wyjaśnij, dlaczego wahadło nie uderzyło nauczyciela." +
   "          </p>" +
   "          <p>" +
-  "            b) Co musiałby zrobić nauczyciela, żeby wahadło go dotknęło, mimo, że stał w tym samym miejscu." +
+  "            b) Co musiałby zrobić nauczyciela, żeby wahadło go dotknęło, mimo że stał w tym samym miejscu." +
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad62" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '            <p id="Odp62" class="inactive-chekbox">a) Wahadło puszczone w ten sposób bez prędkości początkowej ma maksymalną energię potencjalną w miejscu puszczania, dlatego po pełnym cyklu, jeżeli nie ma strat energii, powinno wrócić w dokładnie to samo miejsce. <br></br> b) Nauczyciel powinien popchnąć wahadło. Gdyby profesor popchnął wahadło podczas puszczania go, wahadło miałoby zarówno energię potencjalną grawitacji w tym miejscu jak i energię kinetyczną dzięki popchnięciu. Podczas powrotu do profesora cała energia zamieniłaby się w enegię potencjalną, czyli wahadło musiałoby wznieść się na wysokość wyższą, z której było puszczone.</p>' +
+  '            <p id="Odp62" class="inactive-chekbox">a) Wahadło puszczone w ten sposób bez prędkości początkowej ma maksymalną energię potencjalną w miejscu puszczania, dlatego po pełnym cyklu, jeżeli nie ma strat energii, powinno wrócić w dokładnie to samo miejsce. <br></br> b) Nauczyciel powinien popchnąć wahadło. Gdyby nauczyciel popchnął wahadło podczas puszczania go, wahadło miałoby zarówno energię potencjalną grawitacji w tym miejscu jak i energię kinetyczną dzięki popchnięciu. Podczas powrotu do nauczyciela cała energia zamieniłaby się w energię potencjalną, czyli wahadło musiałoby wznieść się na wysokość wyższą, niż ta z której było puszczone.</p>' +
   "          </div>" +
   "          <p>3. Obejrzyj film.</p>" +
   '          <figure class="zadanie_film zadanie6_film">' +
@@ -83,7 +83,7 @@ var zad6DOM =
   "          </p>" +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad63" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '            <p id="Odp63" class="inactive-chekbox">Głośnik, powoduje okresowe ruchy powietrza do przodu i do tyłu. Płomień porusza się w rytmie tych zmian.</p>' +
+  '            <p id="Odp63" class="inactive-chekbox">Głośnik powoduje okresowe ruchy powietrza do przodu i do tyłu. Płomień porusza się w rytmie tych zmian.</p>' +
   "          </div>" +
   '<div class="nav-buttons">' +
   '            <button class="zadanie-button" id="previousButton">' +

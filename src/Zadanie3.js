@@ -3,6 +3,14 @@ let zad3DOM =
   '        <div class="zadanie_hero zadanie3_hero">' +
   "          <h2>Zadanie 3: Słońce</h2>" +
   "        </div>" +
+  '        <div class="zadanie_tresc zadanie3_tresc">' +
+  "          <p>" +
+  "            <span" +
+  "              >Spójrz na tabelkę przedstawiającą odległości planet od Słońca, a także natężeń promienowania w najbardziej nasłonecznionych punktach planety." +
+  "              Odpowiedz na podstawie tych danych na" +
+  "              poniższe pytania. </span" +
+  "            ><span>W zadaniu zakładamy, że Słońce świeci ze stałą mocą.</span>" +
+  "          </p>" +
   '        <div class="zadanie_tabela zadanie3_tabela">' +
   "          <table>" +
   "            <tr>" +
@@ -41,17 +49,6 @@ let zad3DOM =
   "            </tr>" +
   "          </table>" +
   "        </div>" +
-  '        <div class="zadanie_tresc zadanie3_tresc">' +
-  "          <p>" +
-  "            <span" +
-  "              >Spójrz na tabelkę przedstawiającą odległośći planety od Słońca, a także natężeń promienowania w najbardziej nasłonecznionych punktach planety." +
-  "              Odpowiedz na podstawie tych danych na" +
-  "              poniższe pytania. </span" +
-  "            ><span>W zadaniu zakładamy, że Słońce świeci ze stałą mocą.</span>" +
-  "          </p>" +
-  "          <p>" +
-  "            <span><span> </span></span>" +
-  "          </p>" +
   "          <p>" +
   "            1. W jaki sposób można wytłumaczyć różnicę w maksymalnym natężeniu" +
   "            promieniowania docierającego do Ziemi i Marsa?" +

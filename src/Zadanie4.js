@@ -6,7 +6,7 @@ var zad4DOM =
   '        <div class="zadanie_tresc zadanie4_tresc">' +
   '          <p dir="ltr">' +
   "            <span" +
-  "              >Spójrz na tabelę i odpowiedz na pytania</span" +
+  "              >Spójrz na tabelę i odpowiedz na pytania.</span" +
   "            >" +
   "          </p>" +
   '        <div class="zadanie_tabela zadanie4_tabela">' +
@@ -68,17 +68,17 @@ var zad4DOM =
   "              >2. Wenus to planeta posiadająca gęstą atmosferę składającą się w" +
   "              96% z dwutlenku węgla, który jest gazem" +
   "              cieplarnianym. </span" +
-  "            >Korzystając z tej informacji i prostego diagramu poniżej, wyjaśnij" +
+  "            >Korzystając z tej informacji i prostego diagramu poniżej, wyjaśnij," +
   "            w jaki sposób atmosfera Wenus może powodować wzrost" +
   "            temperatury na planecie." +
   "          </p>" +
   '          <img src="assets/green.png" alt="Schemat" class="img-container">' +
   '          <div class="zadanie_odpowiedz">' +
   '            <button id="Zad42" class="zadanie-button">Przykładowa odpowiedź</button>' +
-  '            <p id="Odp42" class="inactive-chekbox">Dwutlenek węgla w atmosferze przepuszcza większość promieniowanie docierające ze Słońca, które następnie jest pochłonięte przez planetę i wypromienowane. Promienowanie planety ma średnio większą długość fali od średniej długości fali padającej.Promienowanie o większej długości fali nie przechodzi tak łatwo jak promienowanie, o krótkiej długości fali. Część zostaje odbita ponownie w kierunku planety i pochłonięta, co zwiększa temperaturę na jej powierzchni.</p>' +
+  '            <p id="Odp42" class="inactive-chekbox">Dwutlenek węgla w atmosferze przepuszcza większość promieniowania docierającego ze Słońca, które następnie jest pochłonięte przez planetę i wypromienowane. Promienowanie planety ma średnio większą długość fali od średniej długości fali promieniowania słonecznego. Promienowanie o większej długości fali nie przechodzi tak łatwo przez atmosferę, jak promienowanie o krótkiej długości fali. Część zostaje odbita ponownie w kierunku planety i pochłonięta, co zwiększa temperaturę na jej powierzchni.</p>' +
   "          </div>" +
   '          <p dir="ltr">' +
-  "              3. Lądujemy na Wenus. Korzystając z wykresu odpowiedz na" +
+  "              3. Lądujemy na Wenus. Korzystając z wykresu, odpowiedz na" +
   "              pytania." +
   "          </p>" +
   '          <div class="chart-container">' +
