@@ -1,18 +1,18 @@
-import { getHTMLZad1 } from "./Zadanie1";
-import { getHTMLZad2 } from "./Zadanie2";
-import { getHTMLZad3 } from "./Zadanie3";
-import { getHTMLZad4 } from "./Zadanie4";
-import { getHTMLZad5 } from "./Zadanie5";
-import { getHTMLZad6 } from "./Zadanie6";
-import { getHTMLZad7 } from "./Zadanie7";
-import { getHTMLZad8 } from "./Zadanie8";
-import { getHTMLZad9 } from "./Zadanie9";
-import { getHTMLZad10 } from "./Zadanie10";
-import { getHTMLZad11 } from "./Zadanie11";
-import { getHTMLZad12 } from "./Zadanie12";
-import { getHTMLZad13 } from "./Zadanie13";
-import { getHTMLZad14 } from "./Zadanie14";
-import { getHTMLZad15 } from "./Zadanie15";
+import { getHTMLZad1 } from "./zadania/Zadanie1";
+import { getHTMLZad2 } from "./zadania/Zadanie2";
+import { getHTMLZad3 } from "./zadania/Zadanie3";
+import { getHTMLZad4 } from "./zadania/Zadanie4";
+import { getHTMLZad5 } from "./zadania/Zadanie5";
+import { getHTMLZad6 } from "./zadania/Zadanie6";
+import { getHTMLZad7 } from "./zadania/Zadanie7";
+import { getHTMLZad8 } from "./zadania/Zadanie8";
+import { getHTMLZad9 } from "./zadania/Zadanie9";
+import { getHTMLZad10 } from "./zadania/Zadanie10";
+import { getHTMLZad11 } from "./zadania/Zadanie11";
+import { getHTMLZad12 } from "./zadania/Zadanie12";
+import { getHTMLZad13 } from "./zadania/Zadanie13";
+import { getHTMLZad14 } from "./zadania/Zadanie14";
+import { getHTMLZad15 } from "./zadania/Zadanie15";
 import { appendScripts, removeScripts } from "./scriptAppend";
 import {
   initListenersType1,
